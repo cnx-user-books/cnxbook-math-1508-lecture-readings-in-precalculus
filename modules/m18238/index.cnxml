@@ -1,0 +1,232 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Logarithm Concepts -- Graphing Logarithmic Functions</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18238</md:content-id>
+  <md:title>Logarithm Concepts -- Graphing Logarithmic Functions</md:title>
+  <md:abstract>This module discusses the graphing and plotting of logarithmic functions and some of their applications.</md:abstract>
+  <md:uuid>10481e3c-d441-424f-80b6-eb18e810513a</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/inverse-exponential-and-logarithmic-functions/t/graph-of-logarithmic-functions" strength="3">Graphing Logarithmic Functions Video</link>
+    </link-group>
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/inverse-exponential-and-logarithmic-functions/t/graph-of-logarithmic-functions" strength="3">Graphing Logarithmic Functions Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id10608523">Suppose you want to graph the function 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mtext>log</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="log" rSub { size 8{2} }  \( x \) } {}</m:annotation></m:semantics></m:math>. You might start by making a table that looks something like this:</para>
+    <table id="id10608602" summary="Table showing the values for log(base 2) for numbers 1-5">
+
+<tgroup cols="2"><colspec colnum="1" colname="header_c1"/>
+        <colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:msub>
+                              <m:mtext>log</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{y="log" rSub { size 8{2} }  \( x \) } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+</thead>
+        <tbody>
+          
+          <row>
+            <entry>1</entry>
+            <entry>0</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>um....I’m not sure</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>2</entry>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>can I use a calculator?</entry>
+          </row>
+        </tbody>
+      
+</tgroup>
+</table>
+    <para id="id10608861">This doesn’t seem to be the right strategy. Many of those numbers are just too hard to work with.</para>
+    <para id="id10608870">So, you start looking for numbers that <emphasis>are</emphasis> easy to work with. And you remember that it’s important to look at numbers that are less than 1, as well as greater. And eventually, you end up with something more like this.</para>
+    <para id="id9921205"><table id="id9921226" summary="A table showing the values for log(base-2)x where x equals 1/8,1/4,1/2,1,2,4,and 8">
+
+<tgroup cols="2"><colspec colnum="1" colname="c1"/><colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:msub>
+                              <m:mtext>log</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{y="log" rSub { size 8{2} }  \( x \) } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+</thead>
+<tbody><row><entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {8} } } {}</m:annotation></m:semantics></m:math></entry><entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 3} {}</m:annotation></m:semantics></m:math></entry></row><row><entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {4} } } {}</m:annotation></m:semantics></m:math></entry><entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 2} {}</m:annotation></m:semantics></m:math></entry></row><row><entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} } } {}</m:annotation></m:semantics></m:math></entry><entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 1} {}</m:annotation></m:semantics></m:math></entry></row><row><entry>1</entry><entry>0</entry></row><row><entry>2</entry><entry>1</entry></row><row><entry>4</entry><entry>2</entry></row><row><entry>8</entry><entry>3</entry></row></tbody>
+</tgroup>
+</table>As long as you keep putting powers of 2 in the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> column, the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> column is very easy to figure.</para>
+    <para id="id9921891">In fact, the easiest way to generate this table is to recognize that it is the table of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=2 rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> values, only with the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> coordinates switched! In other words, we have re-discovered what we already knew: that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=2 rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mtext>log</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="log" rSub { size 8{2} }  \( x \) } {}</m:annotation></m:semantics></m:math> are inverse functions.</para>
+    <para id="id9712507">When you graph it, you end up with something like this:</para>
+    <figure id="id9712515"><media id="id1164199275912" alt="Coordinate plane graphing the log (base-2) of x"><image src="../../media/graphics1-6760.png" mime-type="image/png" print-width="2in"/></media><caption>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msub>
+                      <m:mtext>log</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y="log" rSub { size 8{2} }  \( x \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </caption></figure>
+    
+    <para id="id9712613">As always, you can learn a great deal about the log function by reading the graph.</para>
+    <list id="id9712619" list-type="bulleted">
+      <item>The domain is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;0} {}</m:annotation></m:semantics></m:math>. (You can’t take the log of 0 or a negative number—do you remember why?).</item>
+      <item>The range, on the other hand, is all numbers. Of course, all this inverses the function 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math>, which has a <emphasis>domain</emphasis> of all numbers and a <emphasis>range</emphasis> of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y&gt;0} {}</m:annotation></m:semantics></m:math>.</item>
+      <item>As 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> gets closer and closer to 0, the function dives down to smaller and smaller negative numbers. So the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>-axis serves as an “asymptote” for the graph, meaning a line that the graph <emphasis>approaches closer and closer to</emphasis> without ever touching.</item>
+      <item>As 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> moves to the right, the graph grows—but more and more slowly. As 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> goes from 4 to 8, the graph goes up by 1. As 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> goes from 8 to 16, the graph goes up by another 1. It doesn’t make it up another 1 until 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> reaches 32...and so on.</item>
+    </list>
+    <para id="id10626592">This pattern of <emphasis>slower and slower growth</emphasis> is one of the most important characteristics of the log. It can be used to “slow down” functions that have too wide a range to be practical to work with.</para>
+
+<example id="graphlog">
+<title>Using the log to model a real world problem</title>
+    <para id="id10626614">Lewis Fry Richardson (1881–1953) was a British meteorologist and mathematician. He was also an active Quaker and committed pacifist, and was one of the first men to apply statistics to the study of human conflict. Richardson catalogued 315 wars between 1820 and 1950, and categorized them by <emphasis>how many deaths</emphasis> they caused. At one end of the scale is a deadly quarrel, which might result in 1 or 2 deaths. At the other extreme are World War I and World War II, which are responsible for roughly 10 million deaths each.</para>
+    <figure id="id10626647"><media id="id1164199362692" alt="Number line showing the number of deaths on a large time line scale"><image src="../../media/graphics2-c83d.png" mime-type="image/png" print-width="4in"/></media></figure>
+    <para id="id10626670">As you can see from the chart above, working with these numbers is extremely difficult: on a scale from 0 to 10 Million, there is no visible difference between (say) 1 and 100,000. Richardson solved this problem by taking the <emphasis>common log of the number of deaths</emphasis>. So a conflict with 1,000 deaths is given a magnitude of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>log</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>1000</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"log" \( "1000" \) =3} {}</m:annotation></m:semantics></m:math>. On this scale, which is now the standard for conflict measurement, the magnitudes of all wars can be easily represented.</para>
+    <figure id="id10626765"><media id="id1164213641187" alt="Number line showing the same number of human deaths on a logarithmic scale"><image src="../../media/graphics3-3144.png" mime-type="image/png" print-width="2in"/></media></figure>
+    <para id="id10626789">Richardson’s scale makes it practical to chart, discuss, and compare wars and battles from the smallest to the biggest. For instance, he discovered that each time you move up by one on the scale—that is, each time the number of deaths multiplies by 10—the number of conflicts drops in a third. (So there are roughly three times as many “magnitude 5” wars as “magnitude 6,” and so on.)</para>
+    <para id="id10626812">The log is useful here because the logarithm function itself <emphasis>grows so slowly</emphasis> that it compresses the entire 1-to-10,000,000 range into a 0-to-7 scale. As you will see in the text, the same trick is used—for the same reason—in fields ranging from earthquakes to sound waves.</para>
+</example>
+  </content>
+</document>

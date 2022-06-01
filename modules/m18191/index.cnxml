@@ -1,0 +1,806 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Function Concepts -- Domain and Range</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18191</md:content-id>
+  <md:title>Function Concepts -- Domain and Range</md:title>
+  <md:abstract>This module defines the domain and range of a function.</md:abstract>
+  <md:uuid>0de98829-ec8e-4935-90c4-a87d131ecd8a</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/graphs-and-functions/t/domain-and-range" strength="3">Domain and Range Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+      <para id="id9244384">Consider the function
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= sqrt {x} } {}</m:annotation></m:semantics></m:math>. If this function is given a 9 it hands back a 3. If this function is given a 2 it hands back…well, it hands back
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2} } {}</m:annotation></m:semantics></m:math>, which is approximately 1.4. The answer cannot be specified exactly as a fraction or decimal, but it is a perfectly good answer nonetheless.</para>
+      <para id="id5643492">On the other hand, what if this function is handed –4? There is no 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - 4} } {}</m:annotation></m:semantics></m:math>, so the function has no number to hand back. If our function is a computer or calculator, it responds with an error message. So we see that this function is able to respond to the numbers 9 and 2, but it is not able to respond in any way to the number -4. Mathematically, we express this by saying that 9 and 2 are in the “domain” of the square root function, and –4 is <emphasis>not</emphasis> in the domain of this function.</para>
+<definition id="domaindef"><term> Domain </term>
+      <meaning id="id16294853">The <emphasis>domain</emphasis> of a function is all the numbers that it can successfully act on. Put another way, it is all the numbers that can go into the function.</meaning>
+</definition>
+      <para id="id6748907">A square root cannot successfully act on a negative number. We say that “The domain of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x} } {}</m:annotation></m:semantics></m:math> is all numbers <media id="id16294900" alt=""><image src="graphics1.wmf" mime-type="image/wmf" height="15" width="14"/></media> such that<media id="id16240527" alt=""><image src="graphics2.wmf" mime-type="image/wmf" height="19" width="39"/></media>” meaning that if you give this function zero or a positive number, it can act on it; if you give this function a negative number, it cannot.</para>
+      <para id="id10862342">A subtler example is the function
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>7</m:mn></m:mrow></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= sqrt {x+7} } {}</m:annotation></m:semantics></m:math>. Does this function have the same domain as the previous function? No, it does not. If you hand this function a –4 it successfully hands back 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {3} } {}</m:annotation></m:semantics></m:math> (about 1.7). –4 is in the domain of this function. On the other hand, if you hand this function a –8 it attempts to take 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - 1} } {}</m:annotation></m:semantics></m:math> and fails; –8 is <emphasis>not</emphasis> in the domain of this function. If you play with a few more numbers, you should be able to convince yourself that the domain of this function is all numbers x such that
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &gt;=  - 7} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id6204946">You are probably familiar with two mathematical operations that are <emphasis>not allowed</emphasis>. The first is, you are not allowed to take the square root of a negative number. As we have seen, this leads to restrictions on the domain of any function that includes square roots.</para>
+      <para id="id11816297">The second restriction is, you are not allowed to divide by zero. This can also restrict the domain of functions. For instance, the function
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {1}  over  {x rSup { size 8{2} }  - 4} } } {}</m:annotation></m:semantics></m:math> has as its domain all numbers <emphasis>except</emphasis> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=2} {}</m:annotation></m:semantics></m:math> and
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 2} {}</m:annotation></m:semantics></m:math>. These two numbers both cause the function to attempt to divide by 0, and hence fail. If you ask a calculator to plug 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=2} {}</m:annotation></m:semantics></m:math> into this function, you will get an error message.</para>
+      <para id="id9159176">So: if you are given a function, how can you find its domain? Look for any number that puts a negative number under the square root; these numbers are <emphasis>not</emphasis> in the domain. Look for any number that causes the function to divide by zero; these numbers are not in the domain. All other numbers <emphasis>are</emphasis> in the domain.</para>
+     
+<table id="id4408774" summary="">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+<thead>
+            <row>
+              <entry>Function</entry>
+              <entry>Domain</entry>
+              <entry>Comments</entry>
+            </row>
+</thead>
+          <tbody>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:msqrt>
+                            <m:mi>x</m:mi>
+                          </m:msqrt>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x} } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">≥</m:mo>
+                            <m:mrow>
+                           
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{x &gt;=  0} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+
+              </entry>
+              <entry>You can take the square root of 0, or of any positive number, but you cannot take the square root of a negative number.</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:msqrt>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mn>7</m:mn>
+                            </m:mrow>
+                          </m:msqrt>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x+7} } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">≥</m:mo>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>7</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{x &gt;=  - 7} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>If you plug in any number <emphasis>greater than or equal to –7,</emphasis> you will be taking a legal square root. If you plug in a number <emphasis>less than –7</emphasis>, you will be taking the square root of a negative number.This domain can also be understood graphically: the graph
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= sqrt {x} } {}</m:annotation></m:semantics></m:math> has been moved 7 units to the left. See “horizontal permutations” below.</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mi>x</m:mi>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {x} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">≠</m:mo>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{x &lt;&gt; 0} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>In other words, the domain is “all numbers except 0.” You are not allowed to divide by 0. You are allowed to divide by anything else.</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {x - 3} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">≠</m:mo>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{x &lt;&gt; 3} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>If 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=3} {}</m:annotation></m:semantics></m:math> then you are dividing by 0, which is <emphasis>not</emphasis> allowed. If 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math>you are dividing by –3, which is allowed. So be careful! The rule is <emphasis>not</emphasis> “when you are dividing, x cannot be 0.” The rule is “
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> can never be any value that would put a 0 in the denominator.”</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {x rSup { size 8{2} }  - 4} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">≠</m:mo>
+                            <m:mrow>
+                              <m:mo stretchy="false">±</m:mo>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{x &lt;&gt;  +- 2} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>Or, “
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>can be any number except 2 or –2.” Either of these
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> values will put a 0 in the denominator, so neither one is allowed.</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mn>2</m:mn>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mi>x</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:msup>
+                                  <m:mi>x</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>3x</m:mn>
+                            </m:mrow>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{2 rSup { size 8{x} } +x rSup { size 8{2} }  - 3x+4} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>All numbers</entry>
+              <entry>You can plug any 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> value into this function and it will come back with a number.</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:msqrt>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            </m:msqrt>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {  { sqrt {x - 3} }  over  {x - 5} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mtable>
+                          <m:mtr>
+                            <m:mrow>
+                              <m:mstyle fontsize="12pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">≥</m:mo>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mrow/>
+                            </m:mrow>
+                          </m:mtr>
+                          <m:mtr>
+                            <m:mrow>
+                              <m:mstyle fontsize="12pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">≠</m:mo>
+                                    <m:mn>5</m:mn>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mrow/>
+                            </m:mrow>
+                          </m:mtr>
+                        </m:mtable>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{x &gt;= 3}  {} # 
+ size 12{x &lt;&gt; 5}  {} 
+} } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>In words, the domain is <emphasis>all numbers greater than or equal to 3, except the number 5</emphasis>. Numbers less than 3 put negative numbers under the square root; 5 causes a division by 0.</entry>
+            </row>
+          </tbody>
+        
+
+
+
+</tgroup>
+</table>
+      <para id="id8564206">You can confirm all these results with your calculator; try plugging numbers into these functions, and see when you get errors!</para>
+      <para id="id9653727">A related concept is <emphasis>range</emphasis>.</para>
+<definition id="rangedef"> <term> Range </term>
+<meaning id="id15668780"> The <emphasis>range</emphasis> of a function is all the numbers that it may possibly produce. Put another way, it is all the numbers that can come <emphasis>out</emphasis> of the function.</meaning> </definition>
+      <para id="id3119663">To illustrate this example, let us return to the function
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>7</m:mn></m:mrow></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= sqrt {x+7} } {}</m:annotation></m:semantics></m:math>. Recall that we said the domain of this function was all numbers 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> such that
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &gt;=  - 7} {}</m:annotation></m:semantics></m:math>; in other words, you are allowed to put any number greater than or equal to –7 into this function.</para>
+      <para id="id3949331">What numbers might come out of this function? If you put in a –7 you get out a 0. (
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msqrt><m:mn>0</m:mn></m:msqrt><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {0} =0} {}</m:annotation></m:semantics></m:math>) If you put in a –6 you get out 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msqrt><m:mn>1</m:mn></m:msqrt><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {1} =1} {}</m:annotation></m:semantics></m:math>. As you increase the <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math> value, the <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math> values also increase. However, if you put in 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 8} {}</m:annotation></m:semantics></m:math> nothing comes out at all. Hence, the range of this function is all numbers 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> such that
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y &gt;= 0} {}</m:annotation></m:semantics></m:math>. That is, this function is capable of handing back 0 or any positive number, but it will never hand back a negative number.</para>
+      <para id="id9063433">It’s easy to get the words domain and range confused—and it’s important to keep them distinct, because although they are <emphasis>related</emphasis> concepts, they are <emphasis>different</emphasis> from each other. One trick that sometimes helps is to remember that, in everyday useage, “your domain” is your home, your land—it is where you begin. A function begins in its own domain. It ends up somewhere out on the range.</para>
+      <section id="id-876111254496"><title>A different notation for domain and range</title>
+        
+        <para id="id12188184">Domains and ranges above are sometimes expressed as intervals, using the following rules:</para>
+        <list id="id9339973" list-type="bulleted"><item>Parentheses       <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math> mean “an interval starting or ending here, but not including this number”</item>
+          <item>Square brackets <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">[</m:mo>
+                  <m:mo stretchy="false">]</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math>
+     mean “an interval starting or ending here, including this number”</item>
+        </list>
+        <para id="id11258163">This is easiest to explain with examples.</para>
+        <table id="id2875962" summary="A table showing the different interval notations and their English and mathematical equivalents. ">
+
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <thead>
+              <row>
+                <entry>This notation...</entry>
+                <entry>...means this...</entry>
+                <entry>...or in other words</entry>
+              </row>
+</thead>
+<tbody>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>3,5</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ \(  - 3,5 \) } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>All numbers between –3 and 5, <emphasis>not including</emphasis> –3 and 5.</entry>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">&lt;</m:mo>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">&lt;</m:mo>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ - 3&lt;x&lt;5} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">[</m:mo>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>3,5</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">]</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ \[  - 3,5 \] } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>All numbers between –3 and 5, <emphasis>including</emphasis> –3 and 5.</entry>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">≤</m:mo>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">≤</m:mo>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ - 3 &lt;= x &lt;= 5} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">[</m:mo>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>3,5</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ \[  - 3,5 \) } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>All numbers between –3 and 5, <emphasis>including</emphasis> –3 <emphasis>but not</emphasis> 5.</entry>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">≤</m:mo>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">&lt;</m:mo>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ - 3 &lt;= x&lt;5} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mo stretchy="false">∞</m:mo>
+                              </m:mrow>
+                              <m:mi>,</m:mi>
+                              <m:mtext>10</m:mtext>
+                              <m:mo stretchy="false">]</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ \(  -  infinity ,"10" \] } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>All numbers less than or equal to 10.</entry>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">≤</m:mo>
+                              <m:mtext>10</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{x &lt;= "10"} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mtext>23</m:mtext>
+                              <m:mi>,</m:mi>
+                              <m:mo stretchy="false">∞</m:mo>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ \( "23", infinity  \) } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>All numbers greater than 23.</entry>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">&gt;</m:mo>
+                              <m:mtext>23</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{x&gt;"23"} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mo stretchy="false">∞</m:mo>
+                              </m:mrow>
+                              <m:mi>,</m:mi>
+                              <m:mn>4</m:mn>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ \(  -  infinity ,4 \) } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>4,</m:mn>
+                              <m:mo stretchy="false">∞</m:mo>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ \( 4, infinity  \) } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>All numbers less than 4, and all numbers greater than 4. In other words, <emphasis>all numbers except</emphasis> 4.</entry>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">≠</m:mo>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{x &lt;&gt; 4} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+            </tbody>
+          
+</tgroup>
+</table>
+      </section>
+  </content>
+</document>

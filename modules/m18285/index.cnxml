@@ -1,0 +1,33 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Imaginary Concepts -- Introduction</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18285</md:content-id>
+  <md:title>Imaginary Concepts -- Introduction</md:title>
+  <md:abstract>This module introduces i, the imaginary number, and the concept of complex numbers in Algebra.</md:abstract>
+  <md:uuid>e865dc3e-7202-47c3-93dc-a2192fc0b874</md:uuid>
+</metadata>
+  <content>
+    <para id="id7837186"><m:math><m:msup><m:mn>(-1)</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:math>
+</para>
+    <para id="id7599940"><m:math><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:math></para>
+    <para id="id7962032">Whether you square a positive or a negative number, the answer is positive. It is impossible to square <emphasis>any</emphasis> number and get a negative answer.</para>
+    <para id="id9264501">So what is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - 1} } {}</m:annotation></m:semantics></m:math>? Since it asks the question “What number <emphasis>squared</emphasis> is –1?”, and since nothing squared ever gives the answer –1, we say that the question has no answer. More generally, we say that the domain of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x} } {}</m:annotation></m:semantics></m:math> is all numbers <m:math><m:mi>x</m:mi></m:math> such that <m:math><m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn></m:math>. –1 is not in the domain.</para>
+    <para id="id8050607">However, it turns out that for a certain class of problems, it is useful to define a new kind of number that has the peculiar property that when you square them, you <emphasis>do</emphasis> get negative answers.</para>
+    <para id="element-67"><title>Definition of i</title>The definition of the imaginary number <m:math><m:mi>i</m:mi></m:math> is that it is the square root of –1:</para><para id="id7891659"><m:math><m:mi>i</m:mi></m:math> <m:math><m:mo>=</m:mo></m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - 1} } {}</m:annotation></m:semantics></m:math>  or, equivalently, <m:math><m:msup><m:mi>i</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>-1</m:mn></m:math></para>
+    
+    
+    <para id="id7847620"><m:math><m:mi>i</m:mi></m:math> is referred to as an “imaginary number” because it cannot represent real quantities such as “the number of rocks” or “the length of a stick.” However, surprisingly, imaginary numbers can be useful in solving many real world problems!</para>
+    <para id="id8907840">I often like to think of <m:math><m:mi>x</m:mi></m:math> as being like a science fiction story. Many science fiction stories are created by starting with <emphasis>one false premise,</emphasis> such as “time travel is possible” or “there are men on Mars,” and then following that premise logically to see where it would lead. With imaginary numbers, we start with the premise that “a number exists whose square is –1.” We then follow that premise logically, using all the established rules of math, to see where it leads.</para>
+<para id="quote"><quote id="id1164955995164" display="block"> 
+ <emphasis>"The imaginary number is a fine and wonderful resource of the human spirit, almost an amphibian between being and not being."</emphasis></quote>
+
+<quote id="id1164955952689" display="block"><emphasis>-Gottfried Wilhelm Leibniz</emphasis></quote>
+</para>
+
+    
+    
+  </content>
+</document>

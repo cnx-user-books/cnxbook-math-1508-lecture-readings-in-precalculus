@@ -1,0 +1,179 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Imaginary Concepts -- Playing with i</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18286</md:content-id>
+  <md:title>Imaginary Concepts -- Playing with i</md:title>
+  <md:abstract>This module contains some example problems involving the manipulation i, the imaginary number.</md:abstract>
+  <md:uuid>be8300a3-7798-475c-b04f-c5842feb2bbd</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/roots-and-radicals/t/powers-of-i" strength="3">Powers of i Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/roots-and-radicals/t/introduction-to-imaginary-numbers" strength="3">Imaginary Numbers Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    
+      <para id="id10031799">Let’s begin with a few very simple exercises designed to show how we apply the normal rules of algebra to this new, abnormal number.</para>
+      <table id="element-784" summary="A table showing simple expressions with i and their results."><tgroup cols="2"><colspec colnum="1" colname="header_c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry namest="c1" nameend="c2"><emphasis>A few very simple examples of expressions involving <m:math><m:mi>i</m:mi></m:math></emphasis></entry>
+</row>
+  <row>
+    <entry>Simplify:</entry>
+    <entry><m:math><m:mi>i</m:mi><m:mo>•</m:mo><m:mn>5</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Answer:</entry>
+    <entry><m:math><m:mi>5i</m:mi></m:math></entry>
+  </row>
+  <row>
+    <entry> </entry>
+    <entry> </entry>
+  </row>
+<row>
+<entry>Simplify:</entry>
+<entry><m:math><m:mi>i</m:mi><m:mo>+</m:mo><m:mi>5i</m:mi></m:math></entry>
+</row>
+<row>
+<entry>Answer:</entry>
+<entry><m:math><m:mi>6i</m:mi></m:math> (Add anything to 5 of itself, and you get 6 of it.  Or, you can think of this as “pulling out” an <m:math><m:mi>i</m:mi></m:math> as follows: <m:math><m:mi>i</m:mi><m:mo>+</m:mo><m:mi>5i</m:mi><m:mo>=</m:mo><m:mi>i</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>6i</m:mi></m:math>)
+</entry>
+</row>
+<row>
+<entry> </entry>
+<entry> </entry>
+</row>
+<row>
+<entry>Simplify:</entry>
+<entry><m:math><m:mi>2i</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:math></entry>
+</row>
+<row>
+<entry>Answer:</entry>
+<entry>You can't simplify it.</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+
+</table>
+      
+      
+      
+      
+      
+      
+      
+      <para id="element-661">Now let's try something a little more involved.</para>
+      <table id="element-156" summary="A table showing an example of i to simplify.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry namest="c1" nameend="c2">Example: Simplify the expression (3+2i)2</entry>
+</row></thead><tbody>
+  <row>
+    <entry><m:math><m:msup><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mi>2i</m:mi><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup> <m:mo>=</m:mo> <m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>2i</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mi>2i</m:mi><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:math></entry>
+    <entry><emphasis>because</emphasis><m:math><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>ax</m:mi><m:mo>+</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:math><emphasis>as always</emphasis></entry>
+  </row>
+  <row>
+    <entry><m:math><m:mo>=</m:mo> <m:mn>9</m:mn><m:mo>+</m:mo><m:mi>12i</m:mi><m:mo>–</m:mo><m:mi>4</m:mi></m:math></entry>
+    <entry><m:math><m:msup><m:mtext>(2i)</m:mtext><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mtext>(2i)</m:mtext><m:mtext>(2i)</m:mtext><m:mo>=</m:mo><m:mtext>(2)</m:mtext><m:mtext>(2)</m:mtext><m:mtext>(i)</m:mtext><m:mtext>(i)</m:mtext><m:mo>=</m:mo><m:msup><m:mi>4i</m:mi><m:mn>2</m:mn></m:msup> <m:mo>=</m:mo><m:mn>–4</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry><m:math><m:mo>=</m:mo> <m:mn>5</m:mn><m:mo>+</m:mo><m:mi>12i</m:mi></m:math></entry>
+    <entry> <emphasis>we can combine the</emphasis> 9 <emphasis>and</emphasis> –4, <emphasis>but not the</emphasis> <m:math><m:mi>12i</m:mi></m:math>.</entry>
+  </row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+      
+      
+      <para id="id4375368">It is vital to remember that <m:math><m:mi>i</m:mi></m:math> is not a variable, and this is not an algebraic generalization. You cannot plug <m:math><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:math> into that equation and expect anything valid to come out. The equation <m:math><m:msup><m:mtext>(3+2i)</m:mtext><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mi>12i</m:mi></m:math> has been shown to be true for only one number: that number is <m:math><m:mi>i</m:mi></m:math>, the square root of –1.</para>
+      <para id="id4905853">In the next example, we simplify a radical using <emphasis>exactly the same technique that we used in the unit on radicals</emphasis>, except that 
+<m:math>
+<m:mi>a</m:mi>
+<m:mo>–</m:mo>
+<m:mn>1</m:mn>
+</m:math> is thrown into the picture.</para>
+      <table id="element-736" summary="A table showing another example with i to simplify."><tgroup cols="2"><colspec colnum="1" colname="c1"/>
+		<colspec colnum="2" colname="c2"/>
+		<thead>
+			<row>
+				<entry namest="c1" nameend="c2">
+Example: Simplify 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>20</m:mtext></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - "20"} } {}</m:annotation></m:semantics></m:math>
+				</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry>
+					<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>20</m:mtext></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - "20"} } {}</m:annotation></m:semantics></m:math> = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { \( 4 \)  \( 5 \)  \(  - 1 \) } } {}</m:annotation></m:semantics></m:math>
+				</entry>
+				<entry><emphasis>as always, factor out the perfect squares</emphasis></entry>
+			</row>
+			<row>
+				<entry>
+= 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>4</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {4} } {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>5</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {5} } {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - 1} } {}</m:annotation></m:semantics></m:math>
+				</entry>
+				<entry>
+					<emphasis>then split it, because</emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ab</m:mtext></m:mrow></m:mstyle></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { ital "ab"} } {}</m:annotation></m:semantics></m:math>=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>a</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {a} } {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>b</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {b} } {}</m:annotation></m:semantics></m:math>
+				</entry>
+			</row>
+			<row>
+				<entry><m:math><m:mo>=</m:mo><m:mi>2i</m:mi></m:math>
+					<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>5</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {5} } {}</m:annotation></m:semantics></m:math></entry>
+				<entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>4</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {4} } {}</m:annotation></m:semantics></m:math>=2, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - 1} } {}</m:annotation></m:semantics></m:math><m:math><m:mo>=</m:mo><m:mi>i</m:mi></m:math>, <emphasis>and</emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>5</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {5} } {}</m:annotation></m:semantics></m:math><emphasis>is just</emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>5</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {5} } {}</m:annotation></m:semantics></m:math>
+				</entry>
+			</row>
+			<row>
+				<entry namest="c1" nameend="c2">Check</entry>
+			</row>
+			<row>
+				<entry namest="c1" nameend="c2">Is <m:math><m:mi>2i</m:mi></m:math>
+					<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>5</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {5} } {}</m:annotation></m:semantics></m:math> really the square root of –20? If it is, then when we <emphasis>square</emphasis> it, we should get –20.</entry>
+			</row>
+			<row>
+				<entry namest="c1" nameend="c2"><m:math><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>2i</m:mi></m:msup>
+								<m:msqrt><m:mn>5</m:mn></m:msqrt><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup>
+						<m:mo>=</m:mo>
+						<m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup><m:msup><m:mi>i</m:mi><m:mn>2</m:mn></m:msup>
+						<m:msup><m:mn>5</m:mn><m:mn>2</m:mn></m:msup>
+						<m:mo>=</m:mo>
+						<m:mn>4</m:mn>
+						<m:mo>*</m:mo><m:mn>-1</m:mn>
+						<m:mo>*</m:mo>
+						<m:mn>5</m:mn>
+						<m:mo>= </m:mo><m:mn>-20</m:mn></m:math>
+					<media id="id1164194635060" alt=""><image src="../../media/graphics1-3794.png" mime-type="image/png" height="14" width="14"/></media> It works!</entry>
+			</row>
+		</tbody>
+	</tgroup>
+</table>
+      
+      
+      
+      
+      
+      
+      <para id="id4968374">The problem above has a very important consequence. We began by saying “You can’t take the square root of any negative number.” Then we defined <m:math><m:mi>i</m:mi></m:math> as the square root of –1. But we see that, using <m:math><m:mi>i</m:mi></m:math>, we can now take the square root of <emphasis>any</emphasis> negative number.</para>
+    
+  </content>
+</document>

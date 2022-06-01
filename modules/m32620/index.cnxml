@@ -1,0 +1,3408 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Definitions, Simple Applications, and Graphs of Trigonometric Functions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m32620</md:content-id>
+  <md:title>Definitions, Simple Applications, and Graphs of Trigonometric Functions</md:title>
+  <md:abstract/>
+  <md:uuid>f6821b09-04c5-4423-8206-bba4705de5e1</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2">
+      <title>Introduction</title>
+      <para id="id77510">In geometry we learn about how the sides of polygons relate to the angles in the polygons, but we have not learned how to calculate an angle if we only know the lengths of the sides. Trigonometry (pronounced: trig-oh-nom-eh-tree) deals with the relationship between the angles and the sides of a right-angled triangle. We will learn about trigonometric functions, which form the basis of trigonometry.</para>
+<section id="secfhsst_id65"><title> Investigation : History of Trigonometry </title>
+      <para id="id77524">Work in pairs or groups and investigate the history of the foundation of trigonometry. Describe the various stages of development and how the following cultures used trigonometry to improve their lives.</para>
+      <para id="id77870">The works of the following people or cultures can be investigated:</para>
+      <list id="id77873" display="block" list-type="enumerated">
+        <item id="uid1">Cultures
+<list id="id77887" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid2">Ancient Egyptians
+</item><item id="uid3">Mesopotamians
+</item><item id="uid4">Ancient Indians of the Indus Valley
+</item></list></item>
+        <item id="uid5">People
+<list id="id77937" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid6">Lagadha (circa 1350-1200 BC)
+</item><item id="uid7">Hipparchus (circa 150 BC)
+</item><item id="uid8">Ptolemy (circa 100)
+</item><item id="uid9">Aryabhata (circa 499)
+</item><item id="uid10">Omar Khayyam (1048-1131)
+</item><item id="uid11">Bhaskara (circa 1150)
+</item><item id="uid12">Nasir al-Din (13th century)
+</item><item id="uid13">al-Kashi and Ulugh Beg (14th century)
+</item><item id="uid14">Bartholemaeus Pitiscus (1595)
+</item></list></item>
+      </list>
+      
+</section>
+<note id="notfhsst_id88"><title> Interesting Fact </title>
+      <para id="id78058">You should be familiar with the idea of measuring angles from geometry but have you ever stopped to think why there are 360 degrees in a circle? The reason is purely historical. There are 360 degrees in a circle because the ancient Babylonians had a number system with base 60. A base is the number at which you add another digit when you count. The number system that we use everyday is called the decimal system (the base is 10), but computers use the binary system (the base is 2). <m:math overflow="scroll"><m:mrow><m:mn>360</m:mn><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>×</m:mo><m:mn>60</m:mn></m:mrow></m:math> so for them it made sense to have 360 degrees in a circle.</para>
+</note>
+    </section>
+    <section id="cid3">
+      <title>Where Trigonometry is Used</title>
+      <para id="id78100">There are many applications of trigonometry. Of particular value is the technique of triangulation, which is used in astronomy to measure the distance to nearby stars, in geography to measure distances between landmarks, and in satellite navigation systems. GPSs (global positioning systems) would not be possible without trigonometry. Other fields which make use of trigonometry include astronomy (and hence navigation, on the oceans, in aircraft, and in space), music theory, acoustics, optics, analysis of financial markets, electronics, probability theory, statistics, biology, medical imaging (CAT scans and ultrasound), pharmacy, chemistry, number theory (and hence cryptology), seismology, meteorology, oceanography, many physical sciences, land surveying and geodesy, architecture, phonetics, economics, electrical engineering, mechanical engineering, civil engineering, computer graphics, cartography, crystallography and game development.</para>
+<section id="secfhsst_id95"><title> Discussion : Uses of Trigonometry </title>
+      <para id="id78126">Select one of the uses of trigonometry from the list given and write a 1-page report describing <emphasis effect="italics">how</emphasis> trigonometry is used in your chosen field. </para>
+</section>
+    </section>
+    <section id="cid4">
+      <title>Similarity of Triangles</title>
+      <para id="id78153">If <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math> is similar to <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>F</m:mi></m:mrow></m:math>, then this is written as:</para>
+      <equation id="id78186">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>▵</m:mi>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+            <m:mi>C</m:mi>
+            <m:mo>∼</m:mo>
+            <m:mi>▵</m:mi>
+            <m:mi>D</m:mi>
+            <m:mi>E</m:mi>
+            <m:mi>F</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id78214">
+        <figure id="id78218">
+          <media id="id78218_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C15_001.png" id="id78218_onlineimage" width="214"><!-- NOTE: attribute width changes image size online (pixels). original width is 214. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_001.eps" id="id78218_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id78224">Then, it is possible to deduce ratios between corresponding sides of the two triangles, such as the following:</para>
+      <equation id="id78228">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mi>B</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>C</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>D</m:mi>
+                    <m:mi>E</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>E</m:mi>
+                    <m:mi>F</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mi>B</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mi>C</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>D</m:mi>
+                    <m:mi>E</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>D</m:mi>
+                    <m:mi>F</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mi>C</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>C</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>D</m:mi>
+                    <m:mi>F</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>E</m:mi>
+                    <m:mi>F</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mi>B</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>D</m:mi>
+                    <m:mi>E</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>B</m:mi>
+                      <m:mi>C</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>E</m:mi>
+                      <m:mi>F</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo>=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>A</m:mi>
+                      <m:mi>C</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>D</m:mi>
+                      <m:mi>F</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id78401">The most important fact about similar triangles <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>F</m:mi></m:mrow></m:math> is that the angle at vertex A is equal to the angle at vertex D, the angle at B is equal to the angle at E, and the angle at C is equal to the angle at F.</para>
+      <equation id="id78434">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>∠</m:mi>
+                  <m:mi>A</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>∠</m:mi>
+                  <m:mi>D</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>∠</m:mi>
+                  <m:mi>B</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>∠</m:mi>
+                  <m:mi>E</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>∠</m:mi>
+                  <m:mi>C</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>∠</m:mi>
+                  <m:mi>F</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+<section id="secfhsst_id319"><title> Investigation : Ratios of Similar Triangles </title>
+      <para id="id78516">In your exercise book, draw three similar triangles of different sizes, but each with <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>60</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. Measure angles and lengths very accurately in order to fill in the table below (round answers to one decimal place).</para>
+      <para id="id78597">
+        <figure id="id78598">
+          <media id="id78598_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C15_002.png" id="id78598_onlineimage" width="232"><!-- NOTE: attribute width changes image size online (pixels). original width is 232. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_002.eps" id="id78598_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <table id="id78604" summary="">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry namest="c1" nameend="c3">Dividing lengths of sides (Ratios)</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mi>A</m:mi>
+                        <m:mi>B</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>B</m:mi>
+                        <m:mi>C</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mspace width="42.67912pt"/>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mi>A</m:mi>
+                        <m:mi>B</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>A</m:mi>
+                        <m:mi>C</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mspace width="42.67912pt"/>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mi>C</m:mi>
+                        <m:mi>B</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>A</m:mi>
+                        <m:mi>C</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mspace width="42.67912pt"/>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>A</m:mi>
+                          <m:mo>'</m:mo>
+                        </m:msup>
+                        <m:msup>
+                          <m:mi>B</m:mi>
+                          <m:mo>'</m:mo>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>B</m:mi>
+                          <m:mo>'</m:mo>
+                        </m:msup>
+                        <m:msup>
+                          <m:mi>C</m:mi>
+                          <m:mo>'</m:mo>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mspace width="42.67912pt"/>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>A</m:mi>
+                          <m:mo>'</m:mo>
+                        </m:msup>
+                        <m:msup>
+                          <m:mi>B</m:mi>
+                          <m:mo>'</m:mo>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>A</m:mi>
+                          <m:mo>'</m:mo>
+                        </m:msup>
+                        <m:msup>
+                          <m:mi>C</m:mi>
+                          <m:mo>'</m:mo>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mspace width="42.67912pt"/>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>C</m:mi>
+                          <m:mo>'</m:mo>
+                        </m:msup>
+                        <m:msup>
+                          <m:mi>B</m:mi>
+                          <m:mo>'</m:mo>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>A</m:mi>
+                          <m:mo>'</m:mo>
+                        </m:msup>
+                        <m:msup>
+                          <m:mi>C</m:mi>
+                          <m:mo>'</m:mo>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mspace width="42.67912pt"/>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>A</m:mi>
+                          <m:mrow>
+                            <m:mo>'</m:mo>
+                            <m:mo>'</m:mo>
+                          </m:mrow>
+                        </m:msup>
+                        <m:msup>
+                          <m:mi>B</m:mi>
+                          <m:mrow>
+                            <m:mo>'</m:mo>
+                            <m:mo>'</m:mo>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>B</m:mi>
+                          <m:mrow>
+                            <m:mo>'</m:mo>
+                            <m:mo>'</m:mo>
+                          </m:mrow>
+                        </m:msup>
+                        <m:msup>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mo>'</m:mo>
+                            <m:mo>'</m:mo>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mspace width="42.67912pt"/>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>A</m:mi>
+                          <m:mrow>
+                            <m:mo>'</m:mo>
+                            <m:mo>'</m:mo>
+                          </m:mrow>
+                        </m:msup>
+                        <m:msup>
+                          <m:mi>B</m:mi>
+                          <m:mrow>
+                            <m:mo>'</m:mo>
+                            <m:mo>'</m:mo>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>A</m:mi>
+                          <m:mrow>
+                            <m:mo>'</m:mo>
+                            <m:mo>'</m:mo>
+                          </m:mrow>
+                        </m:msup>
+                        <m:msup>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mo>'</m:mo>
+                            <m:mo>'</m:mo>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mspace width="42.67912pt"/>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mo>'</m:mo>
+                            <m:mo>'</m:mo>
+                          </m:mrow>
+                        </m:msup>
+                        <m:msup>
+                          <m:mi>B</m:mi>
+                          <m:mrow>
+                            <m:mo>'</m:mo>
+                            <m:mo>'</m:mo>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>A</m:mi>
+                          <m:mrow>
+                            <m:mo>'</m:mo>
+                            <m:mo>'</m:mo>
+                          </m:mrow>
+                        </m:msup>
+                        <m:msup>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mo>'</m:mo>
+                            <m:mo>'</m:mo>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mspace width="42.67912pt"/>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id79075">What observations can you make about the ratios of the sides?</para>
+      <para id="id79081">These equal ratios are used to define the trigonometric functions.</para>
+      <para id="id79087"><emphasis effect="underline">Note:</emphasis> In algebra, we often use the letter <m:math overflow="scroll"><m:mi>x</m:mi></m:math> for our unknown variable (although we can use any other letter too, such as <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math>, <m:math overflow="scroll"><m:mi>k</m:mi></m:math>, etc). In trigonometry, we often use the Greek symbol <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> for an unknown angle (we also use <m:math overflow="scroll"><m:mi>α</m:mi></m:math> , <m:math overflow="scroll"><m:mi>β</m:mi></m:math> , <m:math overflow="scroll"><m:mi>γ</m:mi></m:math> etc). </para>
+</section>
+    </section>
+    <section id="cid5">
+      <title>Definition of the Trigonometric Functions</title>
+      <para id="id79356">We are familiar with a function of the form <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math> where <m:math overflow="scroll"><m:mi>f</m:mi></m:math> is the function and <m:math overflow="scroll"><m:mi>x</m:mi></m:math> is the argument. Examples are:</para>
+      <equation id="id79391">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:msup>
+                  <m:mspace width="2.em"/>
+                  <m:mspace width="4pt"/>
+                  <m:mspace width="4pt"/>
+                  <m:mspace width="4pt"/>
+                  <m:mspace width="4pt"/>
+                  <m:mtext>(exponential</m:mtext>
+                  <m:mspace width="4.pt"/>
+                  <m:mtext>function)</m:mtext>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mspace width="2.em"/>
+                  <m:mtext>(linear</m:mtext>
+                  <m:mspace width="4.pt"/>
+                  <m:mtext>function)</m:mtext>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>h</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mspace width="2.em"/>
+                  <m:mspace width="4pt"/>
+                  <m:mspace width="4pt"/>
+                  <m:mtext>(parabolic</m:mtext>
+                  <m:mspace width="4.pt"/>
+                  <m:mtext>function)</m:mtext>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id79540">The basis of trigonometry are the <emphasis effect="italics">trigonometric functions</emphasis>. There are three basic trigonometric functions:</para>
+      <list id="id79552" display="block" list-type="enumerated">
+        <item id="uid15">sine
+</item>
+        <item id="uid16">cosine
+</item>
+        <item id="uid17">tangent
+</item>
+      </list>
+      <para id="id79593">These are abbreviated to:</para>
+      <list id="id79596" display="block" list-type="enumerated">
+        <item id="uid18">sin
+</item>
+        <item id="uid19">cos
+</item>
+        <item id="uid20">tan
+</item>
+      </list>
+      <para id="id79636">These functions are defined from a <emphasis effect="bold">right-angled triangle</emphasis>, a triangle where one internal angle is 90 <m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>.</para>
+      <para id="id79660">Consider a right-angled triangle.</para>
+      <para id="id79664">
+        <figure id="id79667">
+          <media id="id79667_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C15_003.png" id="id79667_onlineimage" width="123"><!-- NOTE: attribute width changes image size online (pixels). original width is 123. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_003.eps" id="id79667_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id79673">In the right-angled triangle, we refer to the lengths of the three sides according to how they are placed in relation to the angle <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>. The side opposite to the right angle is labelled the <emphasis effect="italics">hypotenus</emphasis>, the side opposite <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> is labelled <emphasis effect="italics">opposite</emphasis>, the side next to <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> is labelled <emphasis effect="italics">adjacent</emphasis>. Note that the choice of non-90 degree internal angle is arbitrary. You can choose either internal angle and then define the adjacent and opposite sides accordingly. However, the hypotenuse remains the same regardless of which internal angle you are referring to.</para>
+      <para id="id79725">We define the trigonometric functions, also known as trigonometric identities, as:
+</para>
+      <equation id="uid21">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">sin</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>o</m:mi>
+                    <m:mi>p</m:mi>
+                    <m:mi>p</m:mi>
+                    <m:mi>o</m:mi>
+                    <m:mi>s</m:mi>
+                    <m:mi>i</m:mi>
+                    <m:mi>t</m:mi>
+                    <m:mi>e</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>h</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mi>p</m:mi>
+                    <m:mi>o</m:mi>
+                    <m:mi>t</m:mi>
+                    <m:mi>e</m:mi>
+                    <m:mi>n</m:mi>
+                    <m:mi>u</m:mi>
+                    <m:mi>s</m:mi>
+                    <m:mi>e</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">cos</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mi>d</m:mi>
+                    <m:mi>j</m:mi>
+                    <m:mi>a</m:mi>
+                    <m:mi>c</m:mi>
+                    <m:mi>e</m:mi>
+                    <m:mi>n</m:mi>
+                    <m:mi>t</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>h</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mi>p</m:mi>
+                    <m:mi>o</m:mi>
+                    <m:mi>t</m:mi>
+                    <m:mi>e</m:mi>
+                    <m:mi>n</m:mi>
+                    <m:mi>u</m:mi>
+                    <m:mi>s</m:mi>
+                    <m:mi>e</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">tan</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>o</m:mi>
+                    <m:mi>p</m:mi>
+                    <m:mi>p</m:mi>
+                    <m:mi>o</m:mi>
+                    <m:mi>s</m:mi>
+                    <m:mi>i</m:mi>
+                    <m:mi>t</m:mi>
+                    <m:mi>e</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mi>d</m:mi>
+                    <m:mi>j</m:mi>
+                    <m:mi>a</m:mi>
+                    <m:mi>c</m:mi>
+                    <m:mi>e</m:mi>
+                    <m:mi>n</m:mi>
+                    <m:mi>t</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id79934">These functions relate the lengths of the sides of a right-angled triangle to its interior angles.</para>
+      <para id="id79941">One way of remembering the definitions is to use the following mnemonic that is perhaps easier to remember:</para>
+      <para id="id79945">
+        <table id="id79953" summary="">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">S</emphasis>illy <emphasis effect="bold">O</emphasis>ld <emphasis effect="bold">H</emphasis>ens</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi mathvariant="bold">S</m:mi>
+                      <m:mi> in </m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mi mathvariant="bold">O</m:mi>
+                          <m:mi> pposite </m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi mathvariant="bold">H</m:mi>
+                          <m:mi> ypotenuse </m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry><emphasis effect="bold">C</emphasis>ackle <emphasis effect="bold">A</emphasis>nd <emphasis effect="bold">H</emphasis>owl</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi mathvariant="bold">C</m:mi>
+                      <m:mi> os </m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mi mathvariant="bold">A</m:mi>
+                          <m:mi> djacent </m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi mathvariant="bold">H</m:mi>
+                          <m:mi> ypotenuse </m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry><emphasis effect="bold">T</emphasis>ill <emphasis effect="bold">O</emphasis>ld <emphasis effect="bold">A</emphasis>ge</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi mathvariant="bold">T</m:mi>
+                      <m:mi> an </m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mi mathvariant="bold">O</m:mi>
+                          <m:mi> pposite </m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi mathvariant="bold">A</m:mi>
+                          <m:mi> djacent </m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </para>
+<para id="eip-186">You may also hear people saying Soh Cah Toa. This is just another way to remember the trig functions.</para><note id="notfhsst_id934" type="tip">The definitions of opposite, adjacent and hypotenuse are only applicable when you are working with right-angled triangles! Always check to make sure your triangle has a right-angle before you use them, otherwise you will get the wrong answer. We will find ways of using our knowledge of right-angled triangles to deal with the trigonometry of non right-angled triangles in Grade 11.</note>
+<section id="secfhsst_id935"><title> Investigation : Definitions of Trigonometric Functions </title>
+      <list id="id80155" display="block" list-type="enumerated">
+        <item id="uid22">In each of the following triangles, state whether <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math> and <m:math overflow="scroll"><m:mi>c</m:mi></m:math> are the hypotenuse, opposite or adjacent sides of the triangle with respect to the marked angle.
+<figure id="id80200"><media id="id80200_media" alt=""><image mime-type="image/png" src="../../media/MG10C15_004.png" id="id80200_onlineimage" width="418"><!-- NOTE: attribute width changes image size online (pixels). original width is 418. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_004.eps" id="id80200_printimage"/></media></figure></item>
+        <item id="uid23">Complete each of the following, the first has been done for you
+<figure id="id80226"><media id="id80226_media" alt=""><image mime-type="image/png" src="../../media/MG10C15_005.png" id="id80226_onlineimage" width="119"><!-- NOTE: attribute width changes image size online (pixels). original width is 119. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_005.eps" id="id80226_printimage"/></media></figure><equation id="id80237"><m:math overflow="scroll" mode="display"><m:mtable displaystyle="true"><m:mtr><m:mtd columnalign="right"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo>)</m:mo><m:mspace width="1.em"/><m:mo form="prefix">sin</m:mo></m:mrow><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mfrac><m:mi> opposite </m:mi><m:mi> hypotenuse </m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>C</m:mi><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mrow><m:mi>b</m:mi><m:mo>)</m:mo><m:mspace width="1.em"/><m:mo form="prefix">cos</m:mo></m:mrow><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mrow><m:mi>c</m:mi><m:mo>)</m:mo><m:mspace width="1.em"/><m:mo form="prefix">tan</m:mo></m:mrow><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation><!--empty paragraphs get left behind.--><equation id="id80376"><m:math overflow="scroll" mode="display"><m:mtable displaystyle="true"><m:mtr><m:mtd/><m:mtd><m:mrow><m:mi>d</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mspace width="1.em"/><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd><m:mrow><m:mi>e</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mspace width="1.em"/><m:mo form="prefix">cos</m:mo><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd><m:mrow><m:mi>f</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mspace width="1.em"/><m:mo form="prefix">tan</m:mo><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation><!--empty paragraphs get left behind.--></item>
+        <item id="uid24">Complete each of the following without a calculator:
+<figure id="id80508"><media id="id80508_media" alt=""><image mime-type="image/png" src="../../media/MG10C15_006.png" id="id80508_onlineimage" width="123"><!-- NOTE: attribute width changes image size online (pixels). original width is 123. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_006.eps" id="id80508_printimage"/></media></figure><equation id="id80519"><m:math overflow="scroll" mode="display"><m:mtable displaystyle="true"><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo form="prefix">sin</m:mo><m:mn>60</m:mn></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo form="prefix">cos</m:mo><m:mn>30</m:mn></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo form="prefix">tan</m:mo><m:mn>60</m:mn></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation><!--empty paragraphs get left behind.--><figure id="id80587"><media id="id80587_media" alt=""><image mime-type="image/png" src="../../media/MG10C15_007.png" id="id80587_onlineimage" width="116"><!-- NOTE: attribute width changes image size online (pixels). original width is 116. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_007.eps" id="id80587_printimage"/></media></figure><equation id="id80598"><m:math overflow="scroll" mode="display"><m:mtable displaystyle="true"><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo form="prefix">sin</m:mo><m:mn>45</m:mn></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo form="prefix">cos</m:mo><m:mn>45</m:mn></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo form="prefix">tan</m:mo><m:mn>45</m:mn></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation><!--empty paragraphs get left behind.--></item>
+      </list>
+      
+</section>
+      <para id="id80673">For most angles <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>, it is very difficult to calculate the values of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math>. One usually needs to use a calculator to do so. However, we saw in the above Activity that we could work these values out for some special angles. Some of these angles are listed in the table below, along with the values of the trigonometric functions at these angles. Remember that the lengths of the sides of a right angled triangle must obey Pythagoras' theorum. The square of the hypothenuse (side opposite the 90 degree angle) equals the sum of the squares of the two other sides.</para>
+      <table id="id80733" summary="">
+        <tgroup cols="7">
+          <tbody>
+            <row>
+              <entry/>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msup>
+                    <m:mn>0</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msup>
+                    <m:mn>30</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msup>
+                    <m:mn>45</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msup>
+                    <m:mn>60</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msup>
+                    <m:mn>90</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msup>
+                    <m:mn>180</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>1</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mfrac>
+                    <m:msqrt>
+                      <m:mn>3</m:mn>
+                    </m:msqrt>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:msqrt>
+                      <m:mn>2</m:mn>
+                    </m:msqrt>
+                  </m:mfrac>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:math>
+              </entry>
+              <entry>0</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>0</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:msqrt>
+                      <m:mn>2</m:mn>
+                    </m:msqrt>
+                  </m:mfrac>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mfrac>
+                    <m:msqrt>
+                      <m:mn>3</m:mn>
+                    </m:msqrt>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:math>
+              </entry>
+              <entry>1</entry>
+              <entry>0</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>0</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:msqrt>
+                      <m:mn>3</m:mn>
+                    </m:msqrt>
+                  </m:mfrac>
+                </m:math>
+              </entry>
+              <entry>1</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msqrt>
+                    <m:mn>3</m:mn>
+                  </m:msqrt>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mo>-</m:mo>
+                </m:math>
+              </entry>
+              <entry>0</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      <para id="id81112">These values are useful when asked to solve a problem involving trig functions <emphasis effect="italics">without</emphasis> using a calculator.</para>
+<exercise id="secfhsst_id1130"><title> Finding Lengths </title>
+      <problem id="probfhsst_id1131">
+      <para id="id81134">Find the length of x in the following triangle.</para>
+      <para id="id81140">
+        <figure id="id81141">
+          <media id="id81141_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C15_008.png" id="id81141_onlineimage" width="100"><!-- NOTE: attribute width changes image size online (pixels). original width is 100. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_008.eps" id="id81141_printimage"/>
+          </media>
+        </figure>
+      </para>
+      
+      </problem>
+      <solution id="solfhsst_id1143"> <list id="listfhsst_id1143" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Identify the trig identity that you need </label>
+      <para id="id81169">In this case you have an angle (<m:math overflow="scroll"><m:msup><m:mn>50</m:mn><m:mo>∘</m:mo></m:msup></m:math>), the opposite side and the hypotenuse.</para>
+      <para id="id81188">So you should use <m:math overflow="scroll"><m:mo form="prefix">sin</m:mo></m:math></para>
+      <equation id="id81204">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo form="prefix">sin</m:mo>
+            <m:msup>
+              <m:mn>50</m:mn>
+              <m:mo>∘</m:mo>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mi>x</m:mi>
+              <m:mn>100</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Rearrange the question to solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math> </label>
+      <equation id="id81247">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo>⇒</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>100</m:mn>
+            <m:mo>×</m:mo>
+            <m:mo form="prefix">sin</m:mo>
+            <m:msup>
+              <m:mn>50</m:mn>
+              <m:mo>∘</m:mo>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Use your calculator to find the answer </label>
+      <para id="id81284">Use the sin
+ button on your calculator</para>
+      <equation id="id81293">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo>⇒</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>76</m:mn>
+            <m:mo>.</m:mo>
+            <m:mn>6</m:mn>
+            <m:mi mathvariant="normal">m</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id1199"><title> Finding Angles </title>
+      <problem id="probfhsst_id1200">
+      <para id="id81349">Find the value of <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> in the following triangle.</para>
+      <para id="id81364"><figure id="id81368"><media id="id81368_media" alt=""><image mime-type="image/png" src="../../media/MG10C15_009.png" id="id81368_onlineimage" width="112"><!-- NOTE: attribute width changes image size online (pixels). original width is 112. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_009.eps" id="id81368_printimage" print-width="1"><!--NOTE: attribute width changes image size in printed PDF (if specified in .tex file)--></image></media></figure>
+
+ </para>
+      </problem>
+      <solution id="solfhsst_id1206"> <list id="listfhsst_id1206" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Identify the trig identity that you need </label>
+      <para id="id81396">In this case you have the opposite side and the hypotenuse to the angle <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>.</para>
+      <para id="id81410">So you should use <m:math overflow="scroll"><m:mo form="prefix">tan</m:mo></m:math></para>
+      <equation id="id81425">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo form="prefix">tan</m:mo>
+            <m:mi>θ</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>50</m:mn>
+              <m:mn>100</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Calculate the fraction as a decimal number </label>
+      <equation id="id81454">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo>⇒</m:mo>
+            <m:mo form="prefix">tan</m:mo>
+            <m:mi>θ</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>0</m:mn>
+            <m:mo>.</m:mo>
+            <m:mn>5</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Use your calculator to find the angle </label>
+      <para id="id81485">Since you are finding the <emphasis effect="italics">angle</emphasis>,</para>
+      <para id="id81494">use <m:math overflow="scroll"><m:msup><m:mo form="prefix">tan</m:mo><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>
+ on your calculator</para>
+      <para id="id81524">Don't forget to set your calculator to `deg' mode!</para>
+      <equation id="id81529">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo>⇒</m:mo>
+            <m:mi>θ</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>26</m:mn>
+            <m:mo>.</m:mo>
+            <m:msup>
+              <m:mn>6</m:mn>
+              <m:mo>∘</m:mo>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+      
+      </item> </list> </solution>
+</exercise>
+<para id="eip-358">The following videos provide a summary of what you have learnt so far.
+<figure id="trigonometry-1" class="khanacademy"><title>Trigonometry - 1</title><media id="yt-media" display="block" alt="Khan academy video on trigonometry - 1">
+  <flash id="yt-video" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/F21S9Wpi0y8&amp;rel=0" width="425" height="344">
+   <param name="allowscriptaccess" value="always"/>
+   <param name="allowsfullscreen" value="true"/>
+  </flash>
+ </media>
+</figure></para><para id="eip-33"><figure id="trigonometry-2" class="khanacademy">
+	  <title>Khan academy video on trigonometry - 2</title>
+	  <media id="yt-media2" display="block" alt="video on trigonometry 2">
+	  <flash id="yt-video2" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/QS4r_mqs-rY&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><section id="secfhsst_id1260"><title> Finding Lengths </title>
+      <para id="id81582">Find the length of the sides marked with letters. Give answers correct to 2 decimal places.</para>
+      <para id="id81589"><figure id="id81592">
+          <media id="id81592_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C15_010.png" id="id81592_onlineimage" width="313"><!-- NOTE: attribute width changes image size online (pixels). original width is 313. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_010.eps" id="id81592_printimage"/>
+          </media>
+        </figure>
+      <figure id="id816001">
+          <media id="id816001_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C15_011.png" id="id816001_onlineimage" width="319"><!-- NOTE: attribute width changes image size online (pixels). original width is 319. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_011.eps" id="id816001_printimage"/>
+          </media>
+        </figure></para>
+      <para id="eip-142"><link window="new" class="fullmarks" url="http://www.fhsst.org/lc1">Click here for the solution.</link></para>
+      
+</section>
+    </section>
+    <section id="cid6">
+      <title>Simple Applications of Trigonometric Functions</title>
+      <para id="id81626">Trigonometry was probably invented in ancient civilisations to solve practical problems such as building construction and navigating by the stars. In this section we will show how trigonometry can be used to solve some other practical problems.</para>
+      <section id="uid25">
+        <title>Height and Depth</title>
+        <figure id="uid26">
+          <media id="uid26_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C15_012.png" id="uid26_onlineimage" width="201"><!-- NOTE: attribute width changes image size online (pixels). original width is 201. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_012.eps" id="uid26_printimage"/>
+          </media>
+          <caption>Determining the height of a building using trigonometry.</caption>
+        </figure>
+        <para id="id81653">One simple task is to find the height of a building by using trigonometry. We could just use a tape measure lowered from the roof, but this is impractical (and dangerous) for tall buildings. It is much more sensible to measure a distance along the ground and use trigonometry to find the height of the building.</para>
+        <para id="id81658"><link target-id="uid26"/> shows a building whose height we do not know. We have walked 100 m away from the building and measured the angle from the ground up to the top of the building. This angle is found to be <m:math overflow="scroll"><m:mrow><m:mn>38</m:mn><m:mo>,</m:mo><m:msup><m:mn>7</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. We call this angle the <emphasis effect="italics">angle of elevation</emphasis>. As you can see from <link target-id="uid26"/>, we now have a right-angled triangle. As we know the length of one side and an angle, we can calculate the height of the triangle, which is the height of the building we are trying to find.</para>
+        <para id="id81702">If we examine the figure, we see that we have the <emphasis effect="italics">opposite</emphasis> and the <emphasis effect="italics">adjacent</emphasis> of the angle of elevation and we can write:</para>
+        <equation id="id81717">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mn>38</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:msup>
+                      <m:mn>7</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mi> opposite </m:mi>
+                    <m:mi> adjacent </m:mi>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mi> height </m:mi>
+                    <m:mrow>
+                      <m:mn>100</m:mn>
+                      <m:mspace width="0.166667em"/>
+                      <m:mi mathvariant="normal">m</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mi> height </m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi mathvariant="normal">m</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mrow>
+                      <m:mn>38</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:msup>
+                        <m:mn>7</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>80</m:mn>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi mathvariant="normal">m</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<exercise id="secfhsst_id1381"><title> Height of a tower </title>
+        <problem id="probfhsst_id1382">
+        <para id="id81869">A block of flats is 100m away from a cellphone tower. Someone stands at <m:math overflow="scroll"><m:mi>B</m:mi></m:math>. They measure the angle from <m:math overflow="scroll"><m:mi>B</m:mi></m:math> up to the top of the tower <m:math overflow="scroll"><m:mi>E</m:mi></m:math> to be 62 <m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>. This is the angle of elevation. They then measure the angle from <m:math overflow="scroll"><m:mi>B</m:mi></m:math> down to the bottom of the tower at <m:math overflow="scroll"><m:mi>C</m:mi></m:math> to be 34 <m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>. This is the angle of depression.What is the height of the cellph one tower correct to 1 decimal place?</para>
+        <para id="id81948">
+          <figure id="id81949">
+            <media id="id81949_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C15_013.png" id="id81949_onlineimage" width="303"><!-- NOTE: attribute width changes image size online (pixels). original width is 303. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_013.eps" id="id81949_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id1394"> <list id="listfhsst_id1394" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Identify a strategy </label>
+        <para id="id81976">To find the height of the tower, all we have to do is find the length of <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math>. We see that <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>B</m:mi><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>B</m:mi><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow></m:math> are both right-angled triangles. For each of the triangles, we have an angle and we have the length <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>D</m:mi></m:mrow></m:math>. Thus we can calculate the sides of the triangles.</para>
+        </item> <item> <label> Calculate <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:math> </label>
+        <para id="id82067">We are given that the length <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math> is 100m. <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>D</m:mi></m:mrow></m:math> is a rectangle so <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>D</m:mi><m:mspace width="4pt"/><m:mo>=</m:mo><m:mspace width="4pt"/><m:mi>A</m:mi><m:mi>C</m:mi><m:mspace width="4pt"/><m:mo>=</m:mo><m:mspace width="4pt"/><m:mn>100</m:mn><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math>.</para>
+        <equation id="id82138">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>C</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>D</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>C</m:mi>
+                      <m:mi>D</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>B</m:mi>
+                      <m:mi>D</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mi>C</m:mi>
+                    <m:mi>D</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>D</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>C</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>D</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:msup>
+                      <m:mn>34</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id82283">Use your calculator to find that <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:msup><m:mn>34</m:mn><m:mo>∘</m:mo></m:msup><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>6745</m:mn></m:mrow></m:math>. Using this, we find that <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>67</m:mn><m:mo>,</m:mo><m:mn>45</m:mn></m:mrow></m:math>m</para>
+        </item> <item> <label> Calculate <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math> </label>
+        <equation id="id82354">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>D</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>E</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>D</m:mi>
+                      <m:mi>E</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>B</m:mi>
+                      <m:mi>D</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mi>D</m:mi>
+                    <m:mi>E</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>D</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>D</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>E</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:msup>
+                      <m:mn>62</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>188</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>07</m:mn>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi mathvariant="normal">m</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Combine the previous answers </label>
+        <para id="id82527">We have that the height of the tower
+<m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mi>D</m:mi><m:mo>+</m:mo><m:mi>D</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>67</m:mn><m:mo>,</m:mo><m:mn>45</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi><m:mo>+</m:mo><m:mn>188</m:mn><m:mo>,</m:mo><m:mn>07</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi><m:mo>=</m:mo><m:mn>255</m:mn><m:mo>.</m:mo><m:mn>5</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+      </section>
+      <section id="uid27">
+        <title>Maps and Plans</title>
+        <para id="id82626">Maps and plans are usually scale drawings. This means that they are an exact copy of the real thing, but are usually smaller. So, only lengths are changed, but all angles are the same. We can use this idea to make use of maps and plans by adding information from the real world.</para>
+<exercise id="secfhsst_id1596"><title> Scale Drawing </title>
+        <problem id="probfhsst_id1597">
+        <para id="id82645">A ship approaching Cape Town Harbour reaches point A on the map, due south of Pretoria and due east of Cape Town. If the distance from Cape Town to Pretoria is 1000km, use trigonometry to find out how far east the ship is from Cape Town, and hence find the scale of the map.</para>
+        <para id="id82652">
+          <figure id="id82657">
+            <media id="id82657_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C15_014.png" id="id82657_onlineimage" width="301"><!-- NOTE: attribute width changes image size online (pixels). original width is 301. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_014.eps" id="id82657_printimage" print-width="1">
+                <!--NOTE: attribute width changes image size in printed PDF (if specified in .tex file)-->
+              </image>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id1611"> <list id="listfhsst_id1611" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Identify what happens in the question </label>
+        <para id="id82688">We already know the distance between Cape Town and <m:math overflow="scroll"><m:mi>A</m:mi></m:math> in blocks from the given map (it is 5 blocks). Thus if we work out how many kilometers this same distance is, we can calculate how many kilometers each block represents, and thus we have the scale of the map.</para>
+        </item> <item> <label> Identify given information </label>
+        <para id="id82707">Let us denote Cape Town with <m:math overflow="scroll"><m:mi>C</m:mi></m:math> and Pretoria with <m:math overflow="scroll"><m:mi>P</m:mi></m:math>.
+We can see that triangle <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>P</m:mi><m:mi>C</m:mi></m:mrow></m:math> is a right-angled triangle. Furthermore, we see that the distance <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math> and distance <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>P</m:mi></m:mrow></m:math> are both 5 blocks. Thus it is an isoceles triangle, and so <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mover accent="true"><m:mi>P</m:mi><m:mo>^</m:mo></m:mover><m:mi>C</m:mi><m:mo>=</m:mo><m:msup><m:mn>45</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>.</para>
+        </item> <item> <label> Carry out the calculation </label>
+        <equation id="id82816">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>C</m:mi>
+                    <m:mi>A</m:mi>
+                    <m:mo>=</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mi>C</m:mi>
+                    <m:mi>P</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>A</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>C</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>P</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mn>1000</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:msup>
+                      <m:mn>45</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1000</m:mn>
+                      <m:msqrt>
+                        <m:mn>2</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi> km </m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id82923">To work out the scale, we see that</para>
+        <equation id="id82929">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mspace width="4pt"/>
+                    <m:mtext>blocks</m:mtext>
+                    <m:mo>=</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1000</m:mn>
+                      <m:msqrt>
+                        <m:mn>2</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                    <m:mspace width="0.166667em"/>
+                    <m:mtext>km</m:mtext>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="4pt"/>
+                    <m:mtext>block</m:mtext>
+                    <m:mo>=</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>200</m:mn>
+                      <m:msqrt>
+                        <m:mn>2</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                    <m:mspace width="0.166667em"/>
+                    <m:mtext>km</m:mtext>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id1745"><title> Building plan </title>
+        <problem id="probfhsst_id1746">
+        <para id="id83053">Mr Nkosi has a garage at his house, and he decides that he wants to add a corrugated iron roof to the side of the garage. The garage is 4m high, and his sheet for the roof is 5m long. If he wants the roof to be at an angle of <m:math overflow="scroll"><m:msup><m:mn>5</m:mn><m:mo>∘</m:mo></m:msup></m:math>, how high must he build the wall <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>D</m:mi></m:mrow></m:math>, which is holding up the roof? Give the answer to 2 decimal places.</para>
+        <para id="id83089">
+          <figure id="id83090">
+            <media id="id83090_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C15_015.png" id="id83090_onlineimage" width="222"><!-- NOTE: attribute width changes image size online (pixels). original width is 222. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_015.eps" id="id83090_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id1758"> <list id="listfhsst_id1758" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Set out strategy </label>
+        <para id="id83116">We see that the triangle <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math> is a right-angled triangle. As we have one side and an angle of this triangle, we can calculate <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math>. The height of the wall is then the height of the garage minus <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math>.</para>
+        </item> <item> <label> Execute strategy </label>
+        <para id="id83164">If <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math>=5m, and angle <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover><m:mi>C</m:mi><m:mo>=</m:mo><m:msup><m:mn>5</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>, then</para>
+        <equation id="id83209">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mi>C</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>C</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>A</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>C</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:msup>
+                      <m:mn>5</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>0871</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo>.</m:mo>
+                    <m:mn>4358</m:mn>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi mathvariant="normal">m</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id83338">Thus we have that the height of the wall <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>4358</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo><m:mn>56</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id1847"><title> Applications of Trigonometric Functions </title>
+        <list id="id83420" display="block" list-type="enumerated"><item id="uid28">A boy flying a kite is standing 30 m from a point directly under the
+kite. If the string to the kite is 50 m long, find the angle of
+elevation of the kite.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lcY">Click here for the solution.</link>
+</item>
+          <item id="uid29">What is the angle of elevation of the sun when a tree 7,15 m tall
+casts a shadow 10,1 m long?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lcr">Click here for the solution.</link>
+</item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+    <section id="cid7">
+      <title>Graphs of Trigonometric Functions</title>
+      <para id="id83471">This section describes the graphs of trigonometric functions.</para>
+      <section id="uid30">
+        <title>Graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></title>
+<section id="secfhsst_id1866"><title> Graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> </title> <para id="uid0983">Complete the following table, using your calculator to calculate the values. Then plot the values with <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> on the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis and <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> on the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis. Round answers to 1 decimal place.</para>
+        <table id="id83562" summary="">
+          <tgroup cols="8">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>θ</m:mi>
+                  </m:math>
+                </entry>
+                <entry>0<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>30<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>60<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>120<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>150<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>θ</m:mi>
+                  </m:math>
+                </entry>
+                <entry>180<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>210<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>240<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>270<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>300<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>330<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>360<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c8"/>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c8">
+                  <figure id="id84030">
+                    <media id="id84030_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_016.png" id="id84030_onlineimage" width="256"><!-- NOTE: attribute width changes image size online (pixels). original width is 256. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_016.eps" id="id84030_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+        
+        
+</section>
+        <para id="id84056">Let us look back at our values for <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></para>
+        <table id="id84073" summary="">
+          <tgroup cols="7">
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>θ</m:mi>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>0</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>30</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>45</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>60</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>90</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>180</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>0</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msqrt>
+                        <m:mn>2</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mfrac>
+                      <m:msqrt>
+                        <m:mn>3</m:mn>
+                      </m:msqrt>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:math>
+                </entry>
+                <entry>1</entry>
+                <entry>0</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+        <para id="id84327">As you can see, the function <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> has a value of 0 at <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. Its value then smoothly increases until <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> when its value is 1. We also know that it later decreases to 0 when <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. Putting all this together we can start to picture the full extent of the sine graph. The sine graph is shown in <link target-id="uid31"/>. Notice the wave shape, with each wave having a length of <m:math overflow="scroll"><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup></m:math>. We say the graph has a <emphasis effect="italics">period</emphasis> of <m:math overflow="scroll"><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup></m:math>. The height of the wave above (or below) the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis is called the wave's <emphasis effect="italics">amplitude</emphasis>. Thus the maximum amplitude of the sine-wave is 1, and its minimum amplitude is -1.</para>
+        <figure id="uid31">
+          <media id="uid31_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C15_017.png" id="uid31_onlineimage" width="290"><!-- NOTE: attribute width changes image size online (pixels). original width is 290. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_017.eps" id="uid31_printimage"/>
+          </media>
+          <caption>The graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math>.</caption>
+        </figure>
+      </section>
+      <section id="uid32">
+        <title>Functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math></title>
+        <para id="id84527">In the equation, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>, <m:math overflow="scroll"><m:mi>a</m:mi></m:math> and <m:math overflow="scroll"><m:mi>q</m:mi></m:math> are constants and have different effects on the graph of the function. The general shape of the graph of functions of this form is shown in <link target-id="uid33"/> for the function <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+        <figure id="uid33"><media id="uid33_media" alt="">
+            <image mime-type="image/png" src="../../media/trigrep.png" id="uid33_onlineimage" width="202"><!-- NOTE: attribute width changes image size online (pixels). original width is 202. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/trigrep.eps" id="uid33_printimage"/>
+          </media>
+          
+        <caption>Graph of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></caption></figure>
+<section id="secfhsst_id2083"><title> Functions of the Form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> :</title>
+        <list id="id84695" display="block" list-type="enumerated">
+          <item id="uid34">On the same set of axes, plot the following graphs:
+<list id="id84710" display="block" list-type="enumerated"><item id="uid35"><m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math></item><item id="uid36"><m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid37"><m:math overflow="scroll"><m:mrow><m:mi>c</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid38"><m:math overflow="scroll"><m:mrow><m:mi>d</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid39"><m:math overflow="scroll"><m:mrow><m:mi>e</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item></list>
+Use your results to deduce the effect of <m:math overflow="scroll"><m:mi>q</m:mi></m:math>.
+</item>
+          <item id="uid40">On the same set of axes, plot the following graphs:
+<list id="id84931" display="block" list-type="enumerated"><item id="uid41"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid42"><m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid43"><m:math overflow="scroll"><m:mrow><m:mi>h</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid44"><m:math overflow="scroll"><m:mrow><m:mi>j</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid45"><m:math overflow="scroll"><m:mrow><m:mi>k</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item></list>
+Use your results to deduce the effect of <m:math overflow="scroll"><m:mi>a</m:mi></m:math>.
+</item>
+        </list>
+        
+        
+
+        <para id="id85165">You should have found that the value of <m:math overflow="scroll"><m:mi>a</m:mi></m:math> affects the height of the peaks of the graph. As the magnitude of <m:math overflow="scroll"><m:mi>a</m:mi></m:math> increases, the peaks get higher. As it decreases, the peaks get lower.</para>
+        <para id="id85188"><m:math overflow="scroll"><m:mi>q</m:mi></m:math> is called the <emphasis effect="italics">vertical shift</emphasis>. If <m:math overflow="scroll"><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, then the whole sine graph shifts up 2 units. If <m:math overflow="scroll"><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math>, the whole sine graph shifts down 1 unit.</para>
+        <para id="id85237">These different properties are summarised in <link target-id="uid46"/>.</para>
+
+        <table id="uid46" summary="">
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry/>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>&gt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>&lt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>q</m:mi>
+                      <m:mo>&gt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <figure id="id85372">
+                    <media id="id85372_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_019.png" id="id85372_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_019.eps" id="id85372_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>
+                  <figure id="id85384">
+                    <media id="id85384_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_020.png" id="id85384_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_020.eps" id="id85384_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>q</m:mi>
+                      <m:mo>&lt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <figure id="id85421">
+                    <media id="id85421_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_021.png" id="id85421_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_021.eps" id="id85421_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>
+                  <figure id="id85433">
+                    <media id="id85433_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_022.png" id="id85433_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_022.eps" id="id85433_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>Table summarising general shapes and positions of graphs of functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>.</caption>
+        </table>
+</section>
+        <section id="uid47">
+          <title>Domain and Range</title>
+          <para id="id85450">For <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>, the domain is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>θ</m:mi><m:mo>:</m:mo><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>}</m:mo></m:mrow></m:math> because there is no value of <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi></m:mrow></m:math> for which <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> is undefined.</para>
+          <para id="id85550">The range of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> depends on whether the value for <m:math overflow="scroll"><m:mi>a</m:mi></m:math> is positive or negative. We will consider these two cases separately.</para>
+          <para id="id85596">If <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> we have:</para>
+          <equation id="id85612"><m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>≤</m:mo>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≤</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>1</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo>≤</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≤</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mspace width="1.em"/>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi mathvariant="normal"> Multiplication </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> by </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal">a</m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> positive </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> number </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> maintains </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> the </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> nature </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> of </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> the </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> inequality </m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                      <m:mo>≤</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mi>θ</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≤</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                      <m:mo>≤</m:mo>
+                      <m:mi>f</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>θ</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≤</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          <para id="id85804">This tells us that for all values of <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> is always between <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>. Therefore if <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, the range of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>[</m:mo><m:mo>-</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>q</m:mi><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>q</m:mi><m:mo>]</m:mo><m:mo>}</m:mo></m:mrow></m:math>.</para>
+          <para id="id85967">Similarly, it can be shown that if <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, the range of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>[</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>q</m:mi><m:mo>,</m:mo><m:mo>-</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>q</m:mi><m:mo>]</m:mo><m:mo>}</m:mo></m:mrow></m:math>. This is left as an exercise.</para>
+<note id="notfhsst_id2299" type="tip">The easiest way to find the range is simply to look for the "bottom" and the "top" of the graph.</note>
+        </section>
+        <section id="uid48">
+          <title>Intercepts</title>
+          <para id="id86090">The <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept, <m:math overflow="scroll"><m:msub><m:mi>y</m:mi><m:mrow><m:mi>i</m:mi><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msub></m:math>, of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is simply the value of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> at <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>.</para>
+          <equation id="id86195">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mi>i</m:mi>
+                        <m:mi>n</m:mi>
+                        <m:mi>t</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>f</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>0</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>0</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mi>q</m:mi>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+        </section>
+      </section>
+      <section id="uid49">
+        <title>Graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></title>
+<section id="secfhsst_id2385"><title> Graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math> :</title>
+<para id="uid8032"> Complete the following table, using your calculator to calculate the values correct to 1 decimal place. Then plot the values with <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math> on the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis and <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> on the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis.</para>
+        <table id="id86399" summary="">
+          <tgroup cols="8">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>θ</m:mi>
+                  </m:math>
+                </entry>
+                <entry>0<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>30<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>60<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>120<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>150<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>θ</m:mi>
+                  </m:math>
+                </entry>
+                <entry>180<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>210<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>240<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>270<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>300<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>330<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>360<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c8"/>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c8">
+                  <figure id="id86866">
+                    <media id="id86866_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_023.png" id="id86866_onlineimage" width="256"><!-- NOTE: attribute width changes image size online (pixels). original width is 256. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_023.eps" id="id86866_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+        
+        
+</section>
+        <para id="id86892">Let us look back at our values for <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></para>
+        <table id="id86909" summary="">
+          <tgroup cols="7">
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>θ</m:mi>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>0</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>30</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>45</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>60</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>90</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>180</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>1</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mfrac>
+                      <m:msqrt>
+                        <m:mn>3</m:mn>
+                      </m:msqrt>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msqrt>
+                        <m:mn>2</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:math>
+                </entry>
+                <entry>0</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+        <para id="id87173">If you look carefully, you will notice that the cosine of an angle <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> is the same as the sine of the angle <m:math overflow="scroll"><m:mrow><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup><m:mo>-</m:mo><m:mi>θ</m:mi></m:mrow></m:math>. Take for example,</para>
+        <equation id="id87206">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mo form="prefix">cos</m:mo>
+              <m:msup>
+                <m:mn>60</m:mn>
+                <m:mo>∘</m:mo>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mo form="prefix">sin</m:mo>
+              <m:msup>
+                <m:mn>30</m:mn>
+                <m:mo>∘</m:mo>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:mo form="prefix">sin</m:mo>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:msup>
+                  <m:mn>90</m:mn>
+                  <m:mo>∘</m:mo>
+                </m:msup>
+                <m:mo>-</m:mo>
+                <m:msup>
+                  <m:mn>60</m:mn>
+                  <m:mo>∘</m:mo>
+                </m:msup>
+                <m:mo>)</m:mo>
+              </m:mrow>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id87280">This tells us that in order to create the cosine graph, all we need to do is to shift the sine graph <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math> to the left. The graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math> is shown in <link target-id="uid50"/>. As the cosine graph is simply a shifted sine graph, it will have the same period and amplitude as the sine graph.</para>
+        <figure id="uid50">
+          <media id="uid50_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C15_024.png" id="uid50_onlineimage" width="290"><!-- NOTE: attribute width changes image size online (pixels). original width is 290. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_024.eps" id="uid50_printimage"/>
+          </media>
+          <caption>The graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math>.</caption>
+        </figure>
+      </section>
+      <section id="uid51">
+        <title>Functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math></title>
+        <para id="id87386">In the equation, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>, <m:math overflow="scroll"><m:mi>a</m:mi></m:math> and <m:math overflow="scroll"><m:mi>q</m:mi></m:math> are constants and have different effects on the graph of the function. The general shape of the graph of functions of this form is shown in <link target-id="uid52"/> for the function <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+        <figure id="uid52"><media id="uid52_media" alt="">
+            <image mime-type="image/png" src="../../media/trigrep1.png" id="uid52_onlineimage" width="202"><!-- NOTE: attribute width changes image size online (pixels). original width is 202. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/trigrep1.eps" id="uid52_printimage"/>
+          </media>
+          
+        <caption>Graph of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></caption></figure>
+<section id="secfhsst_id2647"><title> Functions of the Form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> :</title>
+        <list id="id87553" display="block" list-type="enumerated">
+          <item id="uid53">On the same set of axes, plot the following graphs:
+<list id="id87568" display="block" list-type="enumerated"><item id="uid54"><m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math></item><item id="uid55"><m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid56"><m:math overflow="scroll"><m:mrow><m:mi>c</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid57"><m:math overflow="scroll"><m:mrow><m:mi>d</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid58"><m:math overflow="scroll"><m:mrow><m:mi>e</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item></list>
+Use your results to deduce the effect of <m:math overflow="scroll"><m:mi>q</m:mi></m:math>.
+</item>
+          <item id="uid59">On the same set of axes, plot the following graphs:
+<list id="id87790" display="block" list-type="enumerated"><item id="uid60"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid61"><m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid62"><m:math overflow="scroll"><m:mrow><m:mi>h</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>·</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid63"><m:math overflow="scroll"><m:mrow><m:mi>j</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid64"><m:math overflow="scroll"><m:mrow><m:mi>k</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item></list>
+Use your results to deduce the effect of <m:math overflow="scroll"><m:mi>a</m:mi></m:math>.
+</item>
+        </list>
+        
+        
+</section>
+        <para id="id88024">You should have found that the value of <m:math overflow="scroll"><m:mi>a</m:mi></m:math> affects the amplitude of the cosine graph in the same way it did for the sine graph.</para>
+        <para id="id88038">You should have also found that the value of <m:math overflow="scroll"><m:mi>q</m:mi></m:math> shifts the cosine graph in the same way as it did the sine graph.</para>
+        <para id="id88050">These different properties are summarised in <link target-id="uid65"/>.</para>
+        <table id="uid65" summary="">
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry/>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>&gt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>&lt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>q</m:mi>
+                      <m:mo>&gt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <figure id="id88184">
+                    <media id="id88184_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_026.png" id="id88184_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_026.eps" id="id88184_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>
+                  <figure id="id88196">
+                    <media id="id88196_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_027.png" id="id88196_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_027.eps" id="id88196_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>q</m:mi>
+                      <m:mo>&lt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <figure id="id88234">
+                    <media id="id88234_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_028.png" id="id88234_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_028.eps" id="id88234_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>
+                  <figure id="id88246">
+                    <media id="id88246_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_029.png" id="id88246_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_029.eps" id="id88246_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>Table summarising general shapes and positions of graphs of functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>.</caption>
+        </table>
+        <section id="uid66">
+          <title>Domain and Range</title>
+          <para id="id88263">For <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>, the domain is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>θ</m:mi><m:mo>:</m:mo><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>}</m:mo></m:mrow></m:math> because there is no value of <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi></m:mrow></m:math> for which <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> is undefined.</para>
+          <para id="id88363">It is easy to see that the range of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> will be the same as the range of <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>. This is because the maximum and minimum values of <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> will be the same as the maximum and minimum values of <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>.</para>
+        </section>
+        <section id="uid67">
+          <title>Intercepts</title>
+          <para id="id88468">The <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is calculated in the same way as for sine.</para>
+          <equation id="id88517">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mi>i</m:mi>
+                        <m:mi>n</m:mi>
+                        <m:mi>t</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>f</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>0</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>0</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+        </section>
+      </section>
+      <section id="uid68">
+        <title>Comparison of Graphs of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></title>
+        <figure id="uid69">
+          <media id="uid69_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C15_030.png" id="uid69_onlineimage" width="290"><!-- NOTE: attribute width changes image size online (pixels). original width is 290. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_030.eps" id="uid69_printimage"/>
+          </media>
+          <caption>The graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math> (solid-line) and the graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> (dashed-line).</caption>
+        </figure>
+        <para id="id88718">Notice that the two graphs look very similar. Both oscillate up and down around the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis as you move along the axis. The distances between the peaks of the two graphs is the same and is constant along each graph. The height of the peaks and the depths of the troughs are the same.</para>
+        <para id="id88733">The only difference is that the <m:math overflow="scroll"><m:mo form="prefix">sin</m:mo></m:math> graph is shifted a little to the right of the <m:math overflow="scroll"><m:mo form="prefix">cos</m:mo></m:math> graph by 90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>. That means that if you shift the whole <m:math overflow="scroll"><m:mo form="prefix">cos</m:mo></m:math> graph to the right by 90 <m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> it will overlap perfectly with the <m:math overflow="scroll"><m:mo form="prefix">sin</m:mo></m:math> graph. You could also move the <m:math overflow="scroll"><m:mo form="prefix">sin</m:mo></m:math> graph by 90 <m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>to the left and it would overlap perfectly with the <m:math overflow="scroll"><m:mo form="prefix">cos</m:mo></m:math> graph. This means that:</para>
+        <equation id="id88844"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>θ</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>90</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> shift </m:mi><m:mspace width="2.pt"/>
+                      <m:mi> the </m:mi>
+                    </m:mrow>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mrow>
+                      <m:mi> graph </m:mi><m:mspace width="2.pt"/>
+                      <m:mi> to </m:mi><m:mspace width="2.pt"/>
+                      <m:mi> the </m:mi><m:mspace width="2.pt"/>
+                      <m:mi> right </m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mi mathvariant="bold">a</m:mi>
+                    <m:mi> nd </m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd/>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>θ</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>90</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> shift </m:mi><m:mspace width="2.pt"/>
+                      <m:mi> the </m:mi>
+                    </m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mrow>
+                      <m:mi> graph </m:mi><m:mspace width="2.pt"/>
+                      <m:mi> to </m:mi><m:mspace width="2.pt"/>
+                      <m:mi> the </m:mi><m:mspace width="2.pt"/>
+                      <m:mi> left </m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+      </section>
+      <section id="uid70">
+        <title>Graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math></title>
+<section id="secfhsst_id2937"><title> Graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math> </title> <para id="uid982734">Complete the following table, using your calculator to calculate the values correct to 1 decimal place. Then plot the values with <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math> on the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis and <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> on the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis.</para>
+        <table id="id89083" summary="">
+          <tgroup cols="8">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>θ</m:mi>
+                  </m:math>
+                </entry>
+                <entry>0<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>30<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>60<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>120<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>150<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo form="prefix">tan</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>θ</m:mi>
+                  </m:math>
+                </entry>
+                <entry>180<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>210<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>240<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>270<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>300<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>330<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>360<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo form="prefix">tan</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c8"/>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c8">
+                  <figure id="id89550">
+                    <media id="id89550_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_031.png" id="id89550_onlineimage" width="256"><!-- NOTE: attribute width changes image size online (pixels). original width is 256. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_031.eps" id="id89550_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+        
+        
+</section>
+        <para id="id89576">Let us look back at our values for <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math></para>
+        <table id="id89593" summary="">
+          <tgroup cols="7">
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>θ</m:mi>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>0</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>30</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>45</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>60</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>90</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>180</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo form="prefix">tan</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>0</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msqrt>
+                        <m:mn>3</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                  </m:math>
+                </entry>
+                <entry>1</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msqrt>
+                      <m:mn>3</m:mn>
+                    </m:msqrt>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>∞</m:mi>
+                  </m:math>
+                </entry>
+                <entry>0</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+        <para id="id89839">Now that we have graphs for <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math>, there is an easy way to visualise the tangent graph. Let us look back at our definitions of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math> for a right-angled triangle.</para>
+        <equation id="id89902">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mo form="prefix">sin</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo form="prefix">cos</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mfrac>
+                  <m:mi> opposite </m:mi>
+                  <m:mi> hypotenuse </m:mi>
+                </m:mfrac>
+                <m:mfrac>
+                  <m:mi> adjacent </m:mi>
+                  <m:mi> hypotenuse </m:mi>
+                </m:mfrac>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mi> opposite </m:mi>
+                <m:mi> adjacent </m:mi>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mo form="prefix">tan</m:mo>
+              <m:mi>θ</m:mi>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id89965">This is the first of an important set of equations called <emphasis effect="italics">trigonometric identities</emphasis>. An identity is an equation, which holds true for any value which is put into it. In this case we have shown that</para>
+        <equation id="id89978">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mo form="prefix">tan</m:mo>
+              <m:mi>θ</m:mi>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mo form="prefix">sin</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo form="prefix">cos</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id90014">for any value of <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>.</para>
+        <para id="id90030">So we know that for values of <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> for which <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, we must also have <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Also, if <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> our value of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math> is undefined as we cannot divide by 0. The graph is shown in <link target-id="uid71"/>. The dashed vertical lines are at the values of <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> where <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math> is not defined.</para>
+        <figure id="uid71"><media id="uid71_media" alt="">
+            <image mime-type="image/png" src="../../media/trgirep2.png" id="uid71_onlineimage" width="253"><!-- NOTE: attribute width changes image size online (pixels). original width is 253. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/trgirep2.eps" id="uid71_printimage"/>
+          </media>
+          
+        <caption>The graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math>.</caption></figure>
+      </section>
+      <section id="uid72">
+        <title>Functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math></title>
+        <para id="id90209">In the figure below is an example of a function of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>.</para>
+        <figure id="uid73"><media id="uid73_media" alt="">
+            <image mime-type="image/png" src="../../media/trigrep3.png" id="uid73_onlineimage" width="259"><!-- NOTE: attribute width changes image size online (pixels). original width is 259. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/trigrep3.eps" id="uid73_printimage"/>
+          </media>
+          
+        <caption>The graph of <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</caption></figure>
+<section id="secfhsst_id3205"><title> Functions of the Form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> :</title>
+        <list id="id90310" display="block" list-type="enumerated">
+          <item id="uid74">On the same set of axes, plot the following graphs:
+<list id="id90326" display="block" list-type="enumerated"><item id="uid75"><m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math></item><item id="uid76"><m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid77"><m:math overflow="scroll"><m:mrow><m:mi>c</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid78"><m:math overflow="scroll"><m:mrow><m:mi>d</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid79"><m:math overflow="scroll"><m:mrow><m:mi>e</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item></list>
+Use your results to deduce the effect of <m:math overflow="scroll"><m:mi>q</m:mi></m:math>.
+</item>
+          <item id="uid80">On the same set of axes, plot the following graphs:
+<list id="id90547" display="block" list-type="enumerated"><item id="uid81"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid82"><m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid83"><m:math overflow="scroll"><m:mrow><m:mi>h</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>·</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid84"><m:math overflow="scroll"><m:mrow><m:mi>j</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid85"><m:math overflow="scroll"><m:mrow><m:mi>k</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item></list>
+Use your results to deduce the effect of <m:math overflow="scroll"><m:mi>a</m:mi></m:math>.
+</item>
+        </list>
+        
+        
+</section>
+        <para id="id90781">You should have found that the value of <m:math overflow="scroll"><m:mi>a</m:mi></m:math> affects the steepness of each of the branches. The larger the absolute magnitude of <emphasis effect="italics">a</emphasis>, the quicker the branches approach their asymptotes, the values where they are not defined. Negative <m:math overflow="scroll"><m:mi mathvariant="italic">a</m:mi></m:math> values switch the direction of the branches.
+You should have also found that the value of <m:math overflow="scroll"><m:mi>q</m:mi></m:math> affects the vertical shift as for <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math>.
+These different properties are summarised in <link target-id="uid86"/>.</para>
+        <table id="uid86" summary="">
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry/>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>&gt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>&lt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>q</m:mi>
+                      <m:mo>&gt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <figure id="id90981">
+                    <media id="id90981_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_034.png" id="id90981_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_034.eps" id="id90981_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>
+                  <figure id="id90993">
+                    <media id="id90993_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_035.png" id="id90993_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_035.eps" id="id90993_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>q</m:mi>
+                      <m:mo>&lt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <figure id="id91030">
+                    <media id="id91030_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_036.png" id="id91030_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_036.eps" id="id91030_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>
+                  <figure id="id91042">
+                    <media id="id91042_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_037.png" id="id91042_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_037.eps" id="id91042_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>Table summarising general shapes and positions of graphs of functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>.</caption>
+        </table>
+        <section id="uid87">
+          <title>Domain and Range</title>
+          <para id="id91059">The domain of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is all the values of <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> such that <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math> is not equal to 0. We have already seen that when <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:mfrac></m:mrow></m:math> is undefined, as we have division by zero. We know that <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> for all <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup><m:mo>+</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mi>n</m:mi></m:mrow></m:math>, where <m:math overflow="scroll"><m:mi>n</m:mi></m:math> is an integer. So the domain of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is all values of <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>, except the values <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup><m:mo>+</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mi>n</m:mi></m:mrow></m:math>.</para>
+          <para id="id91313">The range of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>(</m:mo><m:mo>-</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo>)</m:mo><m:mo>}</m:mo></m:mrow></m:math>.</para>
+        </section>
+        <section id="uid88">
+          <title>Intercepts</title>
+          <para id="id91406">The <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept, <m:math overflow="scroll"><m:msub><m:mi>y</m:mi><m:mrow><m:mi>i</m:mi><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msub></m:math>, of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is again simply the value of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> at <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>.</para>
+          <equation id="id91511">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mi>i</m:mi>
+                        <m:mi>n</m:mi>
+                        <m:mi>t</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>f</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>0</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo form="prefix">tan</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>0</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mi>q</m:mi>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+        </section>
+        <section id="uid89">
+          <title>Asymptotes</title>
+          <para id="id91637">As <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> approaches <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math>, <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math> approaches infinity. But as <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> is undefined at <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math>, <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> can only approach <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math>, but never equal it. Thus the <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math> curve gets closer and closer to the line <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>, without ever touching it. Thus the line <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> is an asymptote of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math>. <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math> also has asymptotes at <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup><m:mo>+</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mi>n</m:mi></m:mrow></m:math>, where <m:math overflow="scroll"><m:mi>n</m:mi></m:math> is an integer.</para>
+<section id="secfhsst_id3393"><title> Graphs of Trigonometric Functions </title>
+          <list id="id91858" display="block" list-type="enumerated"><item id="uid90">Using your knowldge of the effects of <m:math overflow="scroll"><m:mi>a</m:mi></m:math> and <m:math overflow="scroll"><m:mi>q</m:mi></m:math>, sketch each of the following graphs, without using a table of values, for <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mo>[</m:mo><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>]</m:mo></m:mrow></m:math><list id="id91924" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid91"><m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid92"><m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid93"><m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid94"><m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math></item><item id="uid95"><m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math></item><item id="uid96"><m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math></item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/la8">Click here for the solution. </link></item>
+            <item id="uid97">Give the equations of each of the following graphs:
+
+<figure id="id92152"><media id="id92152_media" alt=""><image mime-type="image/png" src="../../media/trigrep4.png" id="id92152_onlineimage" width="202"><!-- NOTE: attribute width changes image size online (pixels). original width is 96. --></image><image mime-type="application/postscript" for="pdf" src="../../media/trigrep4.eps" id="id92152_printimage"/></media></figure><figure id="id92162"><media id="id92162_media" alt=""><image mime-type="image/png" src="../../media/trigrep5.png" id="id92162_onlineimage" width="202"><!-- NOTE: attribute width changes image size online (pixels). original width is 202. --></image><image mime-type="application/postscript" for="pdf" src="../../media/trigrep5.eps" id="id92162_printimage"/></media></figure><figure id="id92174"><media id="id92174_media" alt=""><image mime-type="image/png" src="../../media/trigrep6.png" id="id92174_onlineimage" width="202"><!-- NOTE: attribute width changes image size online (pixels). original width is 83. --></image><image mime-type="application/postscript" for="pdf" src="../../media/trigrep6.eps" id="id92174_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/la0">Click here for the solution.</link></item>
+          </list>
+          
+</section>
+        </section>
+      </section><para id="eip-749">The following presentation summarises what you have learnt in this chapter. Ignore the last slide.
+<figure id="slidesharefigure" class="slideshare">
+    	<media id="slidesharemedia" alt="Powerpoint presentation on electric circuits">
+    	<flash id="slideshareflash" height="355" width="425" mime-type="application/x-shockwave- flash" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=p0008-wynberggirlshigh-louisekeegan-maths-grade10-trigonometry-100930084905-phpapp01&amp;stripped_title=wynberg-girls-highlouise-keeganmathsgrade10trigonometry">
+    	<param name="allowScriptAccess" value="always"/>
+    	<param name="allowFullScreen" value="true"/>
+    	</flash>
+    	</media>
+    	</figure></para>
+    </section>
+    <section id="cid8">
+      <title>End of Chapter Exercises</title>
+      <list id="id92202" display="block" list-type="enumerated"><item id="uid98">Calculate the unknown lengths
+
+<figure id="id92222"><media id="id92222_media" alt=""><image mime-type="image/png" src="../../media/MG10C15_041.png" id="id92222_onlineimage" width="211"><!-- NOTE: attribute width changes image size online (pixels). original width is 211. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_041.eps" id="id92222_printimage" print-width="1"><!--NOTE: attribute width changes image size in printed PDF (if specified in .tex file)--></image></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/la9">Click here for the solution.</link></item>
+        <item id="uid99">In the triangle <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math> cm, <m:math overflow="scroll"><m:mrow><m:mi>Q</m:mi><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>22</m:mn></m:mrow></m:math> cm and <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mover accent="true"><m:mi>R</m:mi><m:mo>^</m:mo></m:mover><m:mi>Q</m:mi><m:mo>=</m:mo><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. The perpendicular line from <m:math overflow="scroll"><m:mi>P</m:mi></m:math> to <m:math overflow="scroll"><m:mrow><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow></m:math> intersects <m:math overflow="scroll"><m:mrow><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow></m:math> at <m:math overflow="scroll"><m:mi>X</m:mi></m:math>. Calculate
+<list id="id92364" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid100">the length <m:math overflow="scroll"><m:mrow><m:mi>X</m:mi><m:mi>R</m:mi></m:mrow></m:math>,
+</item><item id="uid101">the length <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>X</m:mi></m:mrow></m:math>, and
+</item><item id="uid102">the angle <m:math overflow="scroll"><m:mrow><m:mi>Q</m:mi><m:mover accent="true"><m:mi>P</m:mi><m:mo>^</m:mo></m:mover><m:mi>X</m:mi></m:mrow></m:math></item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/laX">Click here for the solution.</link></item>
+        <item id="uid103">A ladder of length 15 m is resting against a wall, the base of the ladder is 5 m from the wall. Find the angle between the wall and the ladder?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lal">Click here for the solution.</link>
+</item>
+        <item id="uid104">A ladder of length 25 m is resting against a wall, the ladder makes an angle <m:math overflow="scroll"><m:msup><m:mn>37</m:mn><m:mo>∘</m:mo></m:msup></m:math> to the wall. Find the distance between the wall and the base of the ladder?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/la5">Click here for the solution.</link>
+</item>
+        <item id="uid105">In the following triangle find the angle <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover><m:mi>C</m:mi></m:mrow></m:math><figure id="id92525"><media id="id92525_media" alt=""><image mime-type="image/png" src="../../media/MG10C15_042.png" id="id92525_onlineimage" width="156"><!-- NOTE: attribute width changes image size online (pixels). original width is 156. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_042.eps" id="id92525_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/laN">Click here for the solution.</link></item>
+        <item id="uid106">In the following triangle find the length of side <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:math><figure id="id92559"><media id="id92559_media" alt=""><image mime-type="image/png" src="../../media/MG10C15_043.png" id="id92559_onlineimage" width="156"><!-- NOTE: attribute width changes image size online (pixels). original width is 156. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_043.eps" id="id92559_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/laR">Click here for the solution.</link></item>
+        <item id="uid107"><m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>;</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mo>(</m:mo><m:mn>11</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:math>. Find the angle between the line through A and B and the x-axis.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lan">Click here for the solution.</link>
+</item>
+        <item id="uid108"><m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>13</m:mn><m:mo>)</m:mo></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>12</m:mn><m:mo>;</m:mo><m:mn>14</m:mn><m:mo>)</m:mo></m:mrow></m:math>. Find the angle between the line through C and D and the y-axis.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/laQ">Click here for the solution.</link>
+</item>
+        <item id="uid110">A <m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math> ladder is placed <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math> from the wall. What is the angle the ladder makes with the wall?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/laU">Click here for the solution.</link>
+</item>
+<item id="uid981203">Given the points: E(5;0), F(6;2) and G(8;-2), find angle <m:math overflow="scroll"><m:mrow><m:mi>F</m:mi><m:mover accent="true"><m:mi>E</m:mi><m:mo>^</m:mo></m:mover><m:mi>G</m:mi></m:mrow></m:math>.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lap">Click here for the solution.</link></item>
+        <item id="uid111">An isosceles triangle has sides <m:math overflow="scroll"><m:mrow><m:mn>9</m:mn><m:mspace width="0.166667em"/><m:mi> cm </m:mi><m:mo>,</m:mo><m:mspace width="0.166667em"/><m:mn>9</m:mn><m:mspace width="0.166667em"/><m:mi> cm </m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mspace width="0.166667em"/><m:mi> cm </m:mi></m:mrow></m:math>. Find the size of the smallest angle of the triangle.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/laV">Click here for the solution.</link>
+</item>
+        <item id="uid112">A right-angled triangle has hypotenuse <m:math overflow="scroll"><m:mrow><m:mn>13</m:mn><m:mspace width="0.166667em"/><m:mi> mm </m:mi></m:mrow></m:math>. Find the length of the other two sides if one of the angles of the triangle is <m:math overflow="scroll"><m:msup><m:mn>50</m:mn><m:mo>∘</m:mo></m:msup></m:math>.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/laP">Click here for the solution.</link>
+</item>
+        <item id="uid113">One of the angles of a rhombus (<emphasis effect="bold">rhombus</emphasis> - A four-sided polygon, each of whose sides is of equal length) with perimeter <m:math overflow="scroll"><m:mrow><m:mn>20</m:mn><m:mspace width="0.166667em"/><m:mi> cm </m:mi></m:mrow></m:math> is <m:math overflow="scroll"><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup></m:math>.
+<list id="id92966" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid114">Find the sides of the rhombus.
+</item><item id="uid115">Find the length of both diagonals.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/laE">Click here for the solution.</link></item>
+        <item id="uid116">Captain Hook was sailing towards a lighthouse with a height of <m:math overflow="scroll"><m:mrow><m:mn>10</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math>.
+<list id="id93025" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid117">If the top of the lighthouse is <m:math overflow="scroll"><m:mrow><m:mn>30</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math> away, what is the angle of elevation of the boat to the nearest integer?
+</item><item id="uid118">If the boat moves another <m:math overflow="scroll"><m:mrow><m:mn>7</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math> towards the lighthouse, what is the new angle of elevation of the boat to the nearest integer?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lam">Click here for the solution.</link></item>
+        <item id="uid119">(Tricky) A triangle with angles <m:math overflow="scroll"><m:mrow><m:msup><m:mn>40</m:mn><m:mo>∘</m:mo></m:msup><m:mo>,</m:mo><m:mspace width="0.166667em"/><m:msup><m:mn>40</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> and <m:math overflow="scroll"><m:msup><m:mn>100</m:mn><m:mo>∘</m:mo></m:msup></m:math> has a perimeter of <m:math overflow="scroll"><m:mrow><m:mn>20</m:mn><m:mspace width="0.166667em"/><m:mi> cm </m:mi></m:mrow></m:math>. Find the length of each side of the triangle.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lay">Click here for the solution.</link>
+</item>
+      </list>
+    </section>
+  </content>
+</document>

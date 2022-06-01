@@ -1,0 +1,143 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Imaginary Concepts -- Extra for Experts</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18284</md:content-id>
+  <md:title>Imaginary Concepts -- Extra for Experts</md:title>
+  <md:abstract>This is a module discussing several advanced concepts relating to complex numbers, including the differences between real and imaginary, and rational and irrational numbers.</md:abstract>
+  <md:uuid>df4f8afa-0096-4e26-90fa-8e5f780f9095</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/real-numbers/t/properties-of-real-numbers" strength="3">Properties of Real Numbers Video</link>
+    </link-group>
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/roots-and-radicals/t/introduction-to-imaginary-numbers" strength="3">Imaginary Numbers Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/real-numbers/t/introduction-to-real-numbers" strength="3">Real Numbers Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/precalculus/u/polar-coordinates-and-complex-numbers/t/finding-the-roots-of-a-complex-number" strength="3">Complex Number Roots Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="id8461001">
+      <title>Illegal Operations</title>
+      <para id="id7927583">So far, we have seen three different <emphasis>illegal operations</emphasis> in math.</para>
+      <list id="id6448434" list-type="enumerated"><item>You cannot take the square root of a negative number. (Hence, the domain of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x} } {}</m:annotation></m:semantics></m:math> is <m:math><m:mi>x</m:mi><m:mo>≥</m:mo><m:mi>0</m:mi></m:math>.)</item>
+	<item>You cannot divide by zero. (Hence, the domain of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {x} } } {}</m:annotation></m:semantics></m:math> is <m:math><m:mi>x</m:mi><m:mo>≠</m:mo><m:mi>0</m:mi></m:math>.)</item>
+	<item>You cannot take the log of 0 or a negative number. (Hence, the domain of <m:math><m:mtext>log</m:mtext><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:math> is <m:math><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mi>0</m:mi></m:math>.)</item>
+</list>
+      <para id="id9645058">Imaginary numbers give us a way of violating the first restriction. Less obviously, they also give us a way of violating the third restriction: with imaginary numbers, you can take the log of a negative number.</para>
+      <para id="id8401158">So, how about that second restriction? Do you ever reach a point in math where the teacher admits “OK, we <emphasis>really can</emphasis> divide by 0 now”? Can we define a new imaginary number 
+<m:math><m:mi>j</m:mi><m:mo>=</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>0</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {0} } } {}</m:annotation></m:semantics></m:math>?</para>
+      <para id="id8839990">The answer is emphatically no: <emphasis>you really can’t divide by 0</emphasis>. If you attempt to define an imaginary way around this problem, all of math breaks down. Consider the following simple example:</para>
+      <table id="element-91" summary="">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><m:math>
+<m:mn>5</m:mn>
+<m:mo>•</m:mo>
+<m:mn>0</m:mn>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+<m:mo>•</m:mo>
+<m:mn>0</m:mn>
+</m:math></entry>
+    <entry><emphasis>That’s true</emphasis></entry>
+  </row>
+  <row>
+    <entry><m:math>
+<m:mn>5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math></entry>
+    <entry><emphasis>Divide both sides by 0</emphasis></entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table>
+      
+      <para id="id7886592">You see? Dividing by 0 takes us from true conclusions to false ones.</para>
+      <para id="id9860748">The astonishing thing about the definition <m:math>
+<m:mi>i</m:mi>
+<m:mo>=</m:mo>
+</m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - 1} } {}</m:annotation></m:semantics></m:math> is that, although it is imaginary and nonsensical, it is <emphasis>consistent:</emphasis> it does not lead to any logical contradictions. You can find many ways to simplify 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>i</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {i} } } {}</m:annotation></m:semantics></m:math> and it will always reduce to <m:math><m:mi>–i</m:mi></m:math> in the end. Division by zero can never be consistent in this way, so it is always forbidden.</para>
+      <para id="id9638456">A great deal of Calculus is concerned with getting around this problem, by dividing by numbers that are <emphasis>very close</emphasis> to zero.</para>
+    </section>
+    <section id="id8433890">
+      <title>The World of Numbers</title>
+      <para id="id9805301">When you first learn about numbers, you learn the <emphasis>counting numbers:</emphasis></para>
+      <table id="element-853" summary="">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>1,2,3,4...</entry>
+    <entry><emphasis>counting numbers</emphasis></entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+      <para id="id8243818">These numbers are perfect for answering questions such as “How many sticks do I have?” “How many days until Christmas?” “How many years old are you?”</para>
+      <para id="id9807655">For other questions, however, you run into limitations. In measuring temperature, for instance, we find that we need lower numbers than 1. Hence, we arrive at a broader list:</para>
+      
+      <table id="element-71" summary="">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>...–4,–3,–2,–1,0,1,2,3,4...</entry>
+    <entry><emphasis>integers</emphasis></entry>
+  </row>
+</tbody>
+</tgroup>
+</table><para id="id9866559">The addition of 0 and the negative numbers gives us a new, broader set. The original idea of numbers is now seen as a special case of this more general idea; the original set is a subset of this one.</para>
+      <para id="id9665650">Still, if we are measuring lengths of sticks, we will find that often they fall <emphasis>between</emphasis> our numbers. Now we have to add fractions, or decimals, to create the set of <emphasis>rational numbers</emphasis>. I can no longer list the set, but I can give examples.</para>
+      <table id="element-729" summary="">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:math>, –3, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>22</m:mtext><m:mn>7</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"22"}  over  {7} } } {}</m:annotation></m:semantics></m:math>, 0, 2.718, 0.14141414...</entry>
+    <entry><emphasis>rational numbers</emphasis></entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table>
+      <para id="id8475642">The word “rational” implies a <emphasis>ratio</emphasis>, or fraction: the ratio of <emphasis>two integers</emphasis>. Hence, we define our new, broader set (rational numbers) in terms of our older, more limited set (integers). Rational numbers can be expressed as either fractions, or as decimals (which either end after a certain number of digits, or repeat the same loop of digits forever).</para>
+      <para id="id8879781">This set seems to be all-inclusive, but it isn’t: certain numbers cannot be expressed in this form.</para>
+      <table id="element-90" summary="">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2} } {}</m:annotation></m:semantics></m:math>, <m:math><m:mi>π</m:mi></m:math></entry>
+    <entry><emphasis>irrational numbers</emphasis></entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table>
+      <para id="id9642686">The square root of any non-perfect square is “irrational” and so is <m:math><m:mi>π</m:mi></m:math>. They can be <emphasis>approximated</emphasis> as fractions, but not expressed exactly. As decimals, they go on forever but do not endlessly repeat the same loop.</para>
+      <para id="id9858907">If you take the rationals and irrationals together, you get the <emphasis>real numbers</emphasis>. The real numbers are all the numbers represented on a number line.</para>
+      <figure id="id9845553"><media id="id1164174976178" alt="A number line showing all real numbers."><image src="../../media/graphics1-0e5b.png" mime-type="image/png" print-width="3in"/></media><caption>All the numbers on a number line are the real numbers</caption></figure>
+      
+      <para id="id9106236">Now, with this unit, we have added the final piece of the puzzle, the <emphasis>complex numbers</emphasis>. A complex number is any number <m:math><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>bi</m:mi></m:math> where <m:math><m:mi>a</m:mi></m:math> and <m:math><m:mi>b</m:mi></m:math> are real numbers. Hence, just as our definition of rational numbers was <emphasis>based on</emphasis> our definition of integers, so our definition of complex numbers is <emphasis>based on</emphasis> our definition of real numbers. And of course, if <m:math><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math> then we have a real number: the old set is a subset of the new.</para>
+      <para id="id6730357">All of this can be represented in the following diagram.</para>
+      <figure id="id9445379"><media id="id1164142001710" alt="A diagram showing the relationship between the different classes of numbers."><image src="../../media/graphics2-a66c.png" mime-type="image/png" print-width="3in"/></media></figure>
+      <para id="id8486056">The diagram captures the vital idea of subsets: all real numbers are complex numbers, but not all complex numbers are real.</para>
+      <para id="id10008083">Similarly, the diagram shows that if you take all the rational numbers, and all the irrational numbers, together they make up the set of real numbers.</para>
+    </section>
+  </content>
+</document>

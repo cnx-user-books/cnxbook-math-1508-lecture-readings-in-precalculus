@@ -1,0 +1,35 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Imaginary Concepts -- Quadratic Equations and Complex Numbers</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18288</md:content-id>
+  <md:title>Imaginary Concepts -- Quadratic Equations and Complex Numbers</md:title>
+  <md:abstract>This module looks at quadratic equations with a negative discriminant in Algebra.</md:abstract>
+  <md:uuid>6f3c9a2e-49cd-4c29-b3aa-205830ab54e3</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/radical-expressions-and-equations/t/cube-roots" strength="3">The Discriminant Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/the-discriminant-of-a-quadratic-equation" strength="3">Quadratic Equation Discriminant Video</link>
+    </link-group>
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/solving-quadratic-equations-in-disguise" strength="3">Complex Quadratic Equations Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id6938529">In the unit on quadratic equations and complex numbers, we saw that a quadratic equation can have <emphasis>two answers, one answer, or no answers</emphasis>.</para>
+    <para id="id7278398">We can now modify this third case. In cases where we described “no answers” there are actually two answers, but both are complex! This is easy to see if you remember that we found “no answers” when the <emphasis>discriminant was negative</emphasis>—that is, when the quadratic formula gave us a negative answer in the square root.</para>
+    <para id="id4920783">As an example, consider the equation:</para>
+    <para id="id6244657"><m:math><m:msup><m:mi>2x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>3x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:math></para>
+    <para id="id6183858">The quadratic equation gives us:</para>
+    <para id="id7750613"><m:math><m:mi>x </m:mi><m:mo>=</m:mo> <m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">±</m:mo><m:msqrt><m:mrow><m:mrow><m:msup><m:mn>3</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { - 3 +-  sqrt {3 rSup { size 8{2} }  - 4 \( 2 \)  \( 5 \) } }  over  {4} } } {}</m:annotation></m:semantics></m:math> <m:math><m:mo>=</m:mo></m:math> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">±</m:mo><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>31</m:mtext></m:mrow></m:msqrt></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { - 3 +-  sqrt { - "31"} }  over  {4} } } {}</m:annotation></m:semantics></m:math></para>
+    <para id="id7327998">This is the point where, in the “old days,” we would have given up and declared “no answer.” Now we can find two answers—both complex.</para>
+    <para id="id7674297"><m:math><m:mo>=</m:mo> <m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo stretchy="false">±</m:mo><m:mfrac><m:mrow><m:msqrt><m:mtext>31</m:mtext></m:msqrt><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { - 3}  over  {4} }  +-  {  { sqrt {"31"}  sqrt { - 1} }  over  {4} } } {}</m:annotation></m:semantics></m:math> <m:math><m:mo>=</m:mo></m:math> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo stretchy="false">±</m:mo><m:mfrac><m:msqrt><m:mtext>31</m:mtext></m:msqrt><m:mn>4</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { - 3}  over  {4} }  +-  {  { sqrt {"31"} }  over  {4} } } {}</m:annotation></m:semantics><m:mi>i </m:mi></m:math></para>
+    <para id="id6206396">So we have two answers. Note that the two answers are <emphasis>complex conjugates</emphasis> of each other—this relationship comes directly from the quadratic formula.</para>
+  </content>
+</document>

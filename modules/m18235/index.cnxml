@@ -1,0 +1,1087 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Exponent Concepts -- Laws of Exponents</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18235</md:content-id>
+  <md:title>Exponent Concepts -- Laws of Exponents</md:title>
+  <md:abstract>This module covers the laws the govern the manipulation of exponents in algebra.</md:abstract>
+  <md:uuid>533802a7-83f6-4d6f-8adf-ba0fd9408f4f</md:uuid>
+</metadata>
+  <content>
+    <para id="id8045668">The following are generally referred to as the “laws” or “rules” of exponents.
+    <equation id="id9048262">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>b</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>a</m:mi>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mi>b</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{a} } x rSup { size 8{b} } =x rSup { size 8{a+b} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="id9601688"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>b</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>a</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>b</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+<m:mspace width="25pt"/>
+                  <m:mtext> or </m:mtext>
+<m:mspace width="25pt"/>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>b</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {x rSup { size 8{a} } }  over  {x rSup { size 8{b} } } } =x rSup { size 8{a - b} } " or " {  {1}  over  {x rSup { size 8{b - a} } } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="id8756270">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>b</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>ab</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \( x rSup { size 8{a} }  \)  rSup { size 8{b} } =x rSup { size 8{ ital "ab"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></para>
+    <para id="id7847018">As with any formula, the most important thing is to be able to <emphasis>use</emphasis> them—that is, to understand what they mean. But it is also important to know <emphasis>where these formulae come from</emphasis>. And finally, in this case, the three should be memorized.</para>
+    <para id="id5600574">So...what do they mean? They are, of course, algebraic generalizations—statements that are true for any 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>, and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math> values. For instance, the first rule tells us that:</para>
+    <equation id="id9550574">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>7</m:mn>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mtext>12</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">⋅</m:mo>
+                    <m:msup>
+                      <m:mn>7</m:mn>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msup>
+                    <m:mn>7</m:mn>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mtext>16</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{7 rSup { size 8{"12"} }  cdot 7 rSup { size 8{4} } =7 rSup { size 8{"16"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id9302938">which you can confirm on your calculator. Similarly, the third rule promises us that </para>
+    <equation id="id7511600">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:msup>
+                    <m:mn>7</m:mn>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mtext>12</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mn>7</m:mn>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mtext>48</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \( 7 rSup { size 8{"12"} }  \)  rSup { size 8{4} } =7 rSup { size 8{"48"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id7382982">These rules can be used to combine and simplify expressions.</para>
+<example id="lawexp">
+<para id="lawexp_a"><table id="id8906648" frame="none" summary="A table showing simplification rules of exponents.">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry namest="c1" nameend="c2" align="center">Simplifying with the Rules of Exponents</entry>
+          </row>
+</thead>
+<tbody>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mfenced open="(" close=")">
+                                <m:msup>
+                                  <m:mi>x</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>3</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mfenced>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>4</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">⋅</m:mo>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>5</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>9</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">⋅</m:mo>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>11</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {  { left (x rSup { size 8{3} }  right ) rSup { size 8{4} }  cdot x rSup { size 8{5} } }  over  {x rSup { size 8{9} }  cdot x rSup { size 8{"11"} } } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>12</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mo stretchy="false">⋅</m:mo>
+                              <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>5</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>9</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mo stretchy="false">⋅</m:mo>
+                              <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>11</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {}= {  {x rSup { size 8{"12"} }  cdot x rSup { size 8{5} } }  over  {x rSup { size 8{9} }  cdot x rSup { size 8{"11"} } } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry><emphasis>Third rule</emphasis>: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msup><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ab</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSup { size 8{a} }  \)  rSup { size 8{b} } =x rSup { size 8{ ital "ab"} } } {}</m:annotation></m:semantics></m:math>, <emphasis>where</emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a=3} {}</m:annotation></m:semantics></m:math><emphasis>and</emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>b</m:mi><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b=4} {}</m:annotation></m:semantics></m:math></entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>17</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>20</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {}= {  {x rSup { size 8{"17"} } }  over  {x rSup { size 8{"20"} } } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry><emphasis>First rul</emphasis>e: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msup><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{a} } x rSup { size 8{b} } =x rSup { size 8{a+b} } } {}</m:annotation></m:semantics></m:math>, <emphasis>done on both the top and bottom</emphasis></entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {}= {  {1}  over  {x rSup { size 8{3} } } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry><emphasis>Second rule</emphasis>: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msup><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>b</m:mi><m:mo stretchy="false">−</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {x rSup { size 8{a} } }  over  {x rSup { size 8{b} } } } = {  {1}  over  {x rSup { size 8{b - a} } } } } {}</m:annotation></m:semantics></m:math>, <emphasis>where we choose this form to avoid a negative</emphasis> exponent</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+</para>
+</example>
+    <para id="id9704786">Why do these rules work? It’s very easy to see, based on what an exponent is.</para>
+    <table id="id7772173" summary="This table shows how multiplying two numbers of the same base results in the base raised to the sum of the exponents.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry namest="c1" nameend="c2" align="center">Why does the first rule work?</entry>
+          </row>
+</thead>
+<tbody>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>19</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{3} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>19</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow/>
+                                <m:mn>4</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{ cdot 4} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow/>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mtext>19</m:mtext>
+                              <m:mo stretchy="false">⋅</m:mo>
+                              <m:mtext>19</m:mtext>
+                            </m:mrow>
+                            <m:mo stretchy="false">⋅</m:mo>
+                            <m:mtext>19</m:mtext>
+                          </m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {}= \( "19" cdot "19" cdot "19" \) } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mtext>19</m:mtext>
+                              <m:mo stretchy="false">⋅</m:mo>
+                              <m:mtext>19</m:mtext>
+                            </m:mrow>
+                            <m:mo stretchy="false">⋅</m:mo>
+                            <m:mtext>19</m:mtext>
+                          </m:mrow>
+                            <m:mo stretchy="false">⋅</m:mo>
+                            <m:mtext>19</m:mtext>
+                          </m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ cdot  \( "19" cdot "19" cdot "19" \) } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msup>
+                            <m:mtext>19</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>7</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {}="19" rSup { size 8{7} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry/>
+          </row>
+        </tbody>
+      
+
+</tgroup>
+</table>
+    <para id="id8562955">You see what happened? 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mtext>19</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math> means three 19s multiplied; 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mtext>19</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mrow/><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{ cdot 4} } } {}</m:annotation></m:semantics></m:math> means four 19s multiplied. Multiply them together, and you get <emphasis>seven</emphasis> 19s multiplied.</para>
+    
+    <table id="id8682092" summary="">
+<tgroup cols="2" align="center"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry namest="c1" nameend="c2">Why does the second rule work?</entry>
+          </row>
+</thead>
+<tbody>
+          <row>
+            <entry>First form</entry>
+            <entry>Second form</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:msup>
+                            <m:mtext>19</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>8</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:msup>
+                            <m:mtext>19</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>5</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {  {"19" rSup { size 8{8} } }  over  {"19" rSup { size 8{5} } } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:msup>
+                            <m:mtext>19</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>5</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:msup>
+                            <m:mtext>19</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>8</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {  {"19" rSup { size 8{5} } }  over  {"19" rSup { size 8{8} } } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mrow>
+                                        <m:mrow>
+                                          <m:mtext>19</m:mtext>
+                                          <m:mo stretchy="false">⋅</m:mo>
+                                          <m:mtext>19</m:mtext>
+                                        </m:mrow>
+                                        <m:mo stretchy="false">⋅</m:mo>
+                                        <m:mtext>19</m:mtext>
+                                      </m:mrow>
+                                      <m:mo stretchy="false">⋅</m:mo>
+                                      <m:mtext>19</m:mtext>
+                                    </m:mrow>
+                                    <m:mo stretchy="false">⋅</m:mo>
+                                    <m:mtext>19</m:mtext>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">⋅</m:mo>
+                                  <m:mtext>19</m:mtext>
+                                </m:mrow>
+                                <m:mo stretchy="false">⋅</m:mo>
+                                <m:mtext>19</m:mtext>
+                              </m:mrow>
+                              <m:mo stretchy="false">⋅</m:mo>
+                              <m:mtext>19</m:mtext>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mtext>19</m:mtext>
+                                    <m:mo stretchy="false">⋅</m:mo>
+                                    <m:mtext>19</m:mtext>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">⋅</m:mo>
+                                  <m:mtext>19</m:mtext>
+                                </m:mrow>
+                                <m:mo stretchy="false">⋅</m:mo>
+                                <m:mtext>19</m:mtext>
+                              </m:mrow>
+                              <m:mo stretchy="false">⋅</m:mo>
+                              <m:mtext>19</m:mtext>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {}= {  {"19" cdot "19" cdot "19" cdot "19" cdot "19" cdot "19" cdot "19" cdot "19"}  over  {"19" cdot "19" cdot "19" cdot "19" cdot "19"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mtext>19</m:mtext>
+                                    <m:mo stretchy="false">⋅</m:mo>
+                                    <m:mtext>19</m:mtext>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">⋅</m:mo>
+                                  <m:mtext>19</m:mtext>
+                                </m:mrow>
+                                <m:mo stretchy="false">⋅</m:mo>
+                                <m:mtext>19</m:mtext>
+                              </m:mrow>
+                              <m:mo stretchy="false">⋅</m:mo>
+                              <m:mtext>19</m:mtext>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mrow>
+                                        <m:mrow>
+                                          <m:mtext>19</m:mtext>
+                                          <m:mo stretchy="false">⋅</m:mo>
+                                          <m:mtext>19</m:mtext>
+                                        </m:mrow>
+                                        <m:mo stretchy="false">⋅</m:mo>
+                                        <m:mtext>19</m:mtext>
+                                      </m:mrow>
+                                      <m:mo stretchy="false">⋅</m:mo>
+                                      <m:mtext>19</m:mtext>
+                                    </m:mrow>
+                                    <m:mo stretchy="false">⋅</m:mo>
+                                    <m:mtext>19</m:mtext>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">⋅</m:mo>
+                                  <m:mtext>19</m:mtext>
+                                </m:mrow>
+                                <m:mo stretchy="false">⋅</m:mo>
+                                <m:mtext>19</m:mtext>
+                              </m:mrow>
+                              <m:mo stretchy="false">⋅</m:mo>
+                              <m:mtext>19</m:mtext>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {}= {  {"19" cdot "19" cdot "19" cdot "19" cdot "19"}  over  {"19" cdot "19" cdot "19" cdot "19" cdot "19" cdot "19" cdot "19" cdot "19"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>
+       <media id="id2201064" alt="Expanded for of 19 to the eighth over 19 to the fifth, matching 19's are crossed out."><image src="../../media/3a.png" mime-type="image/png" print-width="4in"/></media>
+      </entry>
+            <entry>
+       <media id="id1171607151891" alt="Expanded for of 19 to the fifth over 19 to the eighth, matching 19's are crossed out."><image src="../../media/3b.png" mime-type="image/png" print-width="4in"/></media>
+      </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msup>
+                            <m:mtext>19</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {}="19" rSup { size 8{3} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:msup>
+                              <m:mtext>19</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {}= {  {1}  over  {"19" rSup { size 8{3} } } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+        </tbody>
+      
+
+
+</tgroup>
+</table>
+    <para id="id7800944">In this case, the key is <emphasis>fraction cancellations</emphasis>. When the top is multiplied by 19 and the bottom is multiplied by 19, canceling these 19s has the effect of dividing <emphasis>the top and bottom</emphasis> by 19. When you divide the top and bottom of a fraction by the same number, the fraction is unchanged.</para>
+    <para id="id5992087">You can also think of this rule as the inevitable consequence of the <emphasis>first</emphasis> rule. If 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>19</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>19</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>5</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>19</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>8</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{3} }  cdot "19" rSup { size 8{5} } ="19" rSup { size 8{8} } } {}</m:annotation></m:semantics></m:math>, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msup><m:mtext>19</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>8</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mtext>19</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>5</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"19" rSup { size 8{8} } }  over  {"19" rSup { size 8{5} } } } } {}</m:annotation></m:semantics></m:math> (which asks the question “
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mtext>19</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>5</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{5} } } {}</m:annotation></m:semantics></m:math> times what equals 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mtext>19</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>8</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{8} } } {}</m:annotation></m:semantics></m:math>?”) must be 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mtext>19</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>.</para>
+    <table id="id8271252" summary="">
+<tgroup cols="1" align="center"><colspec colnum="1" colname="c1"/>
+        <thead>
+          <row>
+            <entry align="center">Why does the third rule work?</entry>
+          </row>
+</thead>
+<tbody>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:msup>
+                          <m:mfenced open="(" close=")">
+                            <m:msup>
+                              <m:mtext>19</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mfenced>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ left ("19" rSup { size 8{3} }  right ) rSup { size 8{4} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mfenced open="(" close=")">
+                                  <m:mrow>
+                                    <m:mrow>
+
+                                      <m:mtext>19</m:mtext>
+                                      <m:mo stretchy="false">⋅</m:mo>
+                                      <m:mtext>19</m:mtext>
+                                    </m:mrow>
+                                    <m:mo stretchy="false">⋅</m:mo>
+                                    <m:mtext>19</m:mtext>
+                                  </m:mrow>
+                                </m:mfenced>
+                                <m:mo stretchy="false">⋅</m:mo>
+                                <m:mfenced open="(" close=")">
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mtext>19</m:mtext>
+                                      <m:mo stretchy="false">⋅</m:mo>
+                                      <m:mtext>19</m:mtext>
+                                    </m:mrow>
+                                    <m:mo stretchy="false">⋅</m:mo>
+                                    <m:mtext>19</m:mtext>
+                                  </m:mrow>
+                                </m:mfenced>
+                              </m:mrow>
+                              <m:mo stretchy="false">⋅</m:mo>
+                              <m:mfenced open="(" close=")">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mtext>19</m:mtext>
+                                    <m:mo stretchy="false">⋅</m:mo>
+                                    <m:mtext>19</m:mtext>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">⋅</m:mo>
+                                  <m:mtext>19</m:mtext>
+                                </m:mrow>
+                              </m:mfenced>
+                            </m:mrow>
+                            <m:mo stretchy="false">⋅</m:mo>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mtext>19</m:mtext>
+                                  <m:mo stretchy="false">⋅</m:mo>
+                                  <m:mtext>19</m:mtext>
+                                </m:mrow>
+                                <m:mo stretchy="false">⋅</m:mo>
+                                <m:mtext>19</m:mtext>
+                              </m:mrow>
+                            </m:mfenced>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {}= left ("19" cdot "19" cdot "19" right ) cdot  left ("19" cdot "19" cdot "19" right ) cdot  left ("19" cdot "19" cdot "19" right ) cdot  left ("19" cdot "19" cdot "19" right )} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mo>=</m:mo>
+                        <m:msup>
+                          <m:mtext>19</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mtext>12</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{"12"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+        </tbody>
+      
+
+</tgroup>
+</table>
+    <para id="id9316089">What does it mean to raise something to the fourth power? It means to multiply it by itself, four times. In this case, what we are multiplying by itself four times is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mtext>19</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>, or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mtext>19</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>19</m:mtext></m:mrow><m:mo stretchy="false">⋅</m:mo><m:mtext>19</m:mtext></m:mrow></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ("19" cdot "19" cdot "19" right )} {}</m:annotation></m:semantics></m:math>. Three 19s multiplied <emphasis>four times</emphasis> makes twelve 19s multiplied.</para>
+    
+  </content>
+</document>

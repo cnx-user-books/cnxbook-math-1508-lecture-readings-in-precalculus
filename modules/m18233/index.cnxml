@@ -1,0 +1,675 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Exponent Concepts -- Exponential Curves</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18233</md:content-id>
+  <md:title>Exponent Concepts -- Exponential Curves</md:title>
+  <md:abstract>This module discusses the graphing of exponential curves.</md:abstract>
+  <md:uuid>e31ed6d6-7187-468a-842d-523cc41304fe</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/inverse-exponential-and-logarithmic-functions/t/exponential-functions-and-their-graphs" strength="3">Graphing Exponential Functions Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/inverse-exponential-and-logarithmic-functions/t/exponential-growth-and-decay" strength="3">Exponential Growth and Decay Videos</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id13356921">By plotting points, you can discover that the graph of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=2 rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> looks like this:</para>
+    <figure id="id13356991"><media id="id7050882" alt="Graph"><image src="../../media/graphics1-37d8.png" mime-type="image/png" print-width="4in"/></media><caption>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y=2 rSup { size 8{x} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </caption></figure>
+    
+    <para id="id13357073">A few points to notice about this graph.</para>
+    <list id="id13357077" list-type="bulleted">
+      <item>It goes through the point 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 0,1 \) } {}</m:annotation></m:semantics></m:math> because 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 rSup { size 8{0} } =1} {}</m:annotation></m:semantics></m:math>.</item>
+      <item>It never dips below the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-axis. The <emphasis>domain</emphasis> is unlimited, but the <emphasis>range</emphasis> is y&gt;0. (*Think about our definitions of exponents: whether 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> is positive or negative, integer or fraction, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> is <emphasis>always</emphasis> positive.)</item>
+      <item>Every time you move one unit to the right, the graph height doubles. For instance, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>5</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 rSup { size 8{5} } } {}</m:annotation></m:semantics></m:math> is twice 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>4</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 rSup { size 8{4} } } {}</m:annotation></m:semantics></m:math>, because it multiplies by <emphasis>one more</emphasis> 2. So as you move to the right, the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>-values start looking like 8, 16, 32, 64, 128, and so on, going up more and more sharply.</item>
+      <item>Conversely, every time you move one unit to the left, the graph height drops in half. So as you move to the left, the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>-values start looking like 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} } } {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {4} } } {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {8} } } {}</m:annotation></m:semantics></m:math>, and so on, falling closer and closer to 0.</item>
+    </list>
+    <para id="id13869573">What would the graph of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mn>3</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3 rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> look like? Of course, it would also go through 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 0,1 \) } {}</m:annotation></m:semantics></m:math> because 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mn>3</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 rSup { size 8{0} } =1} {}</m:annotation></m:semantics></m:math>. With each step to the right, it would <emphasis>triple</emphasis>; with each step to the left, it would drop in a <emphasis>third</emphasis>. So the overall shape would look similar, but the rise (on the right) and the drop (on the left) would be faster.</para>
+    <figure id="id13869779"><media id="id7061384" alt="Two overlapping exponential graph that intersect at (0,1)"><image src="../../media/graphics2-4380.png" mime-type="image/png" print-width="4in"/></media><caption><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=2 rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math>
+in thin line;
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mn>3</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=2 rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math>
+in thick line;
+They cross at 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 0,1 \) } {}</m:annotation></m:semantics></m:math></caption></figure>
+    
+    
+    
+    <para id="id13915841">As you might guess, graphs such as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>5</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> all have this same characteristic shape. In fact, any graph 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a&gt;1} {}</m:annotation></m:semantics></m:math> will look basically the same: starting at 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 0,1 \) } {}</m:annotation></m:semantics></m:math> it will rise more and more sharply on the right, and drop toward zero on the left. This type of graph models <emphasis>exponential growth</emphasis>—functions that keep multiplying by the same number. A common example, which you work through in the text, is compound interest from a bank.</para>
+    <para id="id13916128">The opposite graph is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  {1}  over  {2} }  right ) rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math>.</para>
+    <figure id="id13916199"><media id="id7054266" alt="Exponential graph with rising sharply to the left and drops towards zero towards the right."><image src="../../media/graphics3-58ad.png" mime-type="image/png" print-width="4in"/></media><caption>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msup>
+                    <m:mfenced open="(" close=")">
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mfenced>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y= left ( {  {1}  over  {2} }  right ) rSup { size 8{x} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </caption></figure>
+    
+    <para id="id13130008">Each time you move to the right on this graph, it multiplies by 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} } } {}</m:annotation></m:semantics></m:math>: in other words, it <emphasis>divides</emphasis> by 2, heading closer to zero the further you go. This kind of equation is used to model functions that keep <emphasis>dividing</emphasis> by the same number; for instance, radioactive decay. You will also be working through examples like this one.</para>
+    <para id="id13130078">Of course, all the <emphasis>permutations</emphasis> from the first chapter on “functions” apply to these graphs just as they apply to any graph. A particularly interesting example is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 rSup { size 8{ - x} } } {}</m:annotation></m:semantics></m:math>. Remember that when you replace 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> with 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - x} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( 3 \) } {}</m:annotation></m:semantics></m:math>  becomes the old 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \(  - 3 \) } {}</m:annotation></m:semantics></m:math> and vice-versa; in other words, the graph flips around the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>-axis. If you take the graph of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> and permute it in this way, you get a familiar shape:</para>
+    <figure id="id13130466"><media id="id7071808" alt="The graph flips around the y-axis"><image src="../../media/graphics4-58ad.png" mime-type="image/png" print-width="4in"/></media><caption>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y=2 rSup { size 8{ - x} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </caption></figure>
+    
+    <para id="id13130554">Yes, it’s 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  {1}  over  {2} }  right ) rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> in a new disguise!</para>
+    <para id="id12821712">Why did it happen that way? Consider that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mn>1</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  {1}  over  {2} }  right ) rSup { size 8{x} } = {  {1 rSup { size 8{x} } }  over  {2 rSup { size 8{x} } } } } {}</m:annotation></m:semantics></m:math>. But 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>1</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> is just 1 (in other words, 1 to the <emphasis>anything</emphasis> is 1), so 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  {1}  over  {2} }  right ) rSup { size 8{x} } = {  {1}  over  {2 rSup { size 8{x} } } } } {}</m:annotation></m:semantics></m:math>. But negative exponents go in the denominator: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2 rSup { size 8{x} } } } } {}</m:annotation></m:semantics></m:math> is the same thing as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 rSup { size 8{ - x} } } {}</m:annotation></m:semantics></m:math>! So we arrive at: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  {1}  over  {2} }  right ) rSup { size 8{x} } =2 rSup { size 8{ - x} } } {}</m:annotation></m:semantics></m:math>. The two functions are the same, so their graphs are of course the same.</para>
+    <para id="id12822136">Another fun pair of permutations is:</para>
+    <para id="id12822140">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo stretchy="false">⋅</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y=2 cdot 2 rSup { size 8{x} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+      <emphasis>Looks just like </emphasis>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y=2 rSup { size 8{x} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+      <emphasis>but vertically stretched: all y­-values double</emphasis>
+    </para>
+    <para id="id12822285">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y=2 rSup { size 8{x+1} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+      <emphasis>Looks just like </emphasis>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y=2 rSup { size 8{x} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+      <emphasis>but horizontally shifted: moves 1 to the left</emphasis>
+    </para>
+    <para id="id12822476">If you permute 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> in these two ways, you will find that they create the same graph.</para>
+    <figure id="id12822536"><media id="id7072479" alt="Graph of 2 to the x. Shifted one to the left"><image src="../../media/graphics5-5d50.png" mime-type="image/png" print-width="4in"/></media><caption>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo stretchy="false">⋅</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y=2 cdot 2 rSup { size 8{x} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+      <emphasis>aka</emphasis>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y=2 rSup { size 8{x+1} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </caption></figure>
+    
+    <para id="id12822704">Once again, this is predictable from the rules of exponents: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">⋅</m:mo><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">⋅</m:mo><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:msup><m:mn>2</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 cdot 2 rSup { size 8{x} } =2 rSup { size 8{1} }  cdot 2 rSup { size 8{x} } =2 rSup { size 8{x+1} } } {}</m:annotation></m:semantics></m:math></para>
+    <section id="id-233859518559">
+      <title>Using exponential functions to model behavior</title>
+      <para id="id12822829">In the first chapter, we talked about <emphasis>linear functions</emphasis> as functions that <emphasis>add the same amount every time</emphasis>. For instance, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3x+4} {}</m:annotation></m:semantics></m:math> models a function that starts at 4; every time you increase 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> by 1, you add 3 to 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id12093659">Exponential functions are conceptually very analogous: they <emphasis>multiply by the same amount every time</emphasis>. For instance, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mn>3</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=4 times 3 rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> models a function that starts at 4; every time you increase 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> by 1, you <emphasis>multiply</emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> by 3.</para>
+      <para id="id12093841">Linear functions can go down, as well as up, by having <emphasis>negative slopes</emphasis>: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - 3x+4} {}</m:annotation></m:semantics></m:math> starts at 4 and <emphasis>subtracts</emphasis> 3 every time. Exponential functions can go down, as well as up, by having <emphasis>fractional bases</emphasis>: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">×</m:mo><m:mo stretchy="true">(</m:mo></m:mrow></m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=4 times  \(  {  {1}  over  {3} }  \)  rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> starts at 4 and <emphasis>divides</emphasis> by 3 every time.</para>
+      <para id="id12094025">Exponential functions often defy intuition, because they grow much faster than people expect.</para>
+      
+      
+      
+      
+      
+      <para id="element-836"><title>Modeling exponential functions</title>Your father’s house was worth $100,000 when he bought it in 1981. Assuming that it increases in value by 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>8</m:mn><m:mi>%</m:mi><m:mtext/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8%} {}</m:annotation></m:semantics></m:math> every year, what was the house worth in the year 2001? (*Before you work through the math, you may want to make an intuitive guess as to what you think the house is worth. Then, after we crunch the numbers, you can check to see how close you got.)</para><para id="element-859">Often, the best way to approach this kind of problem is to begin by making a chart, to get a sense of the growth pattern.</para><table id="element-393" summary="">
+<tgroup cols="3">
+<colspec colnum="1" colname="header_c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+           <row>
+              <entry>Year</entry>
+              <entry>Increase in Value</entry>
+              <entry>Value</entry>
+            </row>
+          </thead>
+          <tbody>
+           
+            <row>
+              <entry>1981</entry>
+              <entry>N/A</entry>
+              <entry>100,000</entry>
+            </row>
+            <row>
+              <entry>1982</entry>
+              <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>8</m:mn><m:mi>%</m:mi><m:mtext/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8%} {}</m:annotation></m:semantics></m:math> of 100,000 = 8,000</entry>
+              <entry>108,000</entry>
+            </row>
+            <row>
+              <entry>1983</entry>
+              <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>8</m:mn><m:mi>%</m:mi><m:mtext/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8%} {}</m:annotation></m:semantics></m:math> of 108,000 = 8,640</entry>
+              <entry>116,640</entry>
+            </row>
+            <row>
+              <entry>1984</entry>
+              <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>8</m:mn><m:mi>%</m:mi><m:mtext/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8%} {}</m:annotation></m:semantics></m:math> of 116,640 = 9,331</entry>
+              <entry>125,971</entry>
+            </row>
+          </tbody>
+        
+
+
+
+
+
+
+</tgroup>
+</table><para id="id13049515"><emphasis>Before you go farther, make sure you understand where the numbers on that chart come from</emphasis>. It’s OK to use a calculator. But if you blindly follow the numbers without understanding the calculations, the whole rest of this section will be lost on you.</para>
+      <para id="id13049535">In order to find the pattern, look at the “Value” column and ask: what is happening to these numbers every time? Of course, we are adding 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>8</m:mn><m:mi>%</m:mi><m:mtext/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8%} {}</m:annotation></m:semantics></m:math> each time, but what does that really mean? With a little thought—or by looking at the numbers—you should be able to convince yourself that the numbers are <emphasis>multiplying by</emphasis> 1.08 <emphasis>each time</emphasis>. That’s why this is an exponential function: the value of the house multiplies by 1.08 every year.</para>
+      <para id="id13049618">So let’s make that chart again, in light of this new insight. Note that I can now skip the middle column and go straight to the answer we want. More importantly, note that I am not going to use my calculator this time—I don’t want to multiply all those 1.08s, I just want to note each time that the answer is 1.08 <emphasis>times the previous answer</emphasis>.</para>
+      <table id="id13049646" summary="">
+<tgroup cols="2">
+<colspec colnum="1" colname="header_c1"/>
+          <colspec colnum="2" colname="c2"/>
+
+          <thead>
+
+           <row>
+              <entry>Year</entry>
+              <entry>House Value</entry>
+            </row>
+          </thead>
+          <tbody>
+           
+            <row>
+              <entry>1981</entry>
+              <entry>100,000</entry>
+            </row>
+            <row>
+              <entry>1982</entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mtext>100</m:mtext>
+                            <m:mi>,</m:mi>
+                            <m:mrow>
+                              <m:mtext>000</m:mtext>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                            <m:mtext>.</m:mtext>
+                            <m:mtext>08</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{"100","000" times 1 "." "08"} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>1983</entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mtext>100</m:mtext>
+                            <m:mi>,</m:mi>
+                            <m:mrow>
+                              <m:mtext>000</m:mtext>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                            <m:mtext>.</m:mtext>
+                            <m:msup>
+                              <m:mtext>08</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{"100","000" times 1 "." "08" rSup { size 8{2} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>1984</entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mtext>100</m:mtext>
+                            <m:mi>,</m:mi>
+                            <m:mrow>
+                              <m:mtext>000</m:mtext>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                            <m:mtext>.</m:mtext>
+                            <m:msup>
+                              <m:mtext>08</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{"100","000" times 1 "." "08" rSup { size 8{3} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>1985</entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mtext>100</m:mtext>
+                            <m:mi>,</m:mi>
+                            <m:mrow>
+                              <m:mtext>000</m:mtext>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                            <m:mtext>.</m:mtext>
+                            <m:msup>
+                              <m:mtext>08</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>4</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{"100","000" times 1 "." "08" rSup { size 8{4} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mtext>100</m:mtext>
+                            <m:mi>,</m:mi>
+                            <m:mrow>
+                              <m:mtext>000</m:mtext>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                            <m:mtext>.</m:mtext>
+                            <m:msup>
+                              <m:mtext>08</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>something</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{"100","000" times 1 "." "08" rSup { size 8{"something"} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+            </row>
+          </tbody>
+        
+
+</tgroup>
+</table>
+      <para id="id12823268">If you are not clear where those numbers came from, think again about the conclusion we reached earlier: each year, the value <emphasis>multiplies by</emphasis> 1.08. So if the house is worth 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>100</m:mtext><m:mi>,</m:mi><m:mrow><m:mtext>000</m:mtext><m:mo stretchy="false">×</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>08</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100","000" times 1 "." "08" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>in 1983, then its value in 1984 is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>100</m:mtext><m:mi>,</m:mi><m:mrow><m:mtext>000</m:mtext><m:mo stretchy="false">×</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>08</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfenced><m:mo stretchy="false">×</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>08</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ("100","000" times 1 "." "08" rSup { size 8{2} }  right ) times 1 "." "08"} {}</m:annotation></m:semantics></m:math>, which is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>100</m:mtext><m:mi>,</m:mi><m:mrow><m:mtext>000</m:mtext><m:mo stretchy="false">×</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>08</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100","000" times 1 "." "08" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id12823512">Once we write it this way, the pattern is clear. I have expressed that pattern by adding the last row, the value of the house in any year 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>. And what is the mystery exponent? We see that the exponent is 1 in 1982, 2 in 1983, 3 in 1984, and so on. In the year 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>, the exponent is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mtext>1981</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y - "1981"} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id12823659">So we have our house value function:</para>
+      <equation id="id12823663">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>y</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>100</m:mtext>
+                    </m:mrow>
+                    <m:mi>,</m:mi>
+                    <m:mrow>
+                      <m:mtext>000</m:mtext>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:msup>
+                      <m:mtext>08</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>1981</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{v \( y \) ="100","000" times 1 "." "08" rSup { size 8{y - "1981"} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id13924189">That is the pattern we needed in order to answer the question. So in the year 2001, the value of the house is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>100</m:mtext><m:mi>,</m:mi><m:mrow><m:mtext>000</m:mtext><m:mo stretchy="false">×</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>08</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mtext>20</m:mtext></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100","000" times 1 "." "08" rSup { size 8{"20"} } } {}</m:annotation></m:semantics></m:math>. Bringing the calculator back, we find that the value of the house is now $466,095 and change.</para>
+      <para id="id13924267">Wow! The house is over four times its original value! That’s what I mean about exponential functions growing faster than you expect: they start out slow, but given time, they explode. This is also a practical life lesson about the importance of saving money early in life—a lesson that many people don’t realize until it’s too late.</para>
+    </section>
+  </content>
+</document>

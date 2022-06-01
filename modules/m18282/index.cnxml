@@ -1,0 +1,211 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Imaginary Concepts -- Complex Numbers</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18282</md:content-id>
+  <md:title>Imaginary Concepts -- Complex Numbers</md:title>
+  <md:abstract>This module introduces the concept of complex numbers in Algebra.</md:abstract>
+  <md:uuid>465b48a3-8089-46f1-8c2b-fc0ea0f3cad9</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/roots-and-radicals/t/adding-and-subtracting-complex-numbers" strength="3">Adding Complex Numbers Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/roots-and-radicals/t/evaluating-rational-exponents" strength="3">Dividing Complex Numbers Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/roots-and-radicals/t/multiplying-complex-numbers" strength="3">Multiplying Complex Numbers Video</link>
+    </link-group>
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/roots-and-radicals/t/radicals-and-absolute-values" strength="3">Radical Expressions Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id48058125">A “complex number” is the sum of two parts: a real number by itself, and a real number multiplied by <m:math><m:mi>i</m:mi></m:math>. It can therefore be written as <m:math><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>bi</m:mi></m:math>, where <m:math><m:mi>a</m:mi></m:math> and <m:math><m:mi>b</m:mi></m:math> are real numbers.</para>
+    <para id="id47576313">The first part, <m:math><m:mi>a</m:mi></m:math>, is referred to as the <emphasis>real part</emphasis>. The second part, <m:math><m:mi>bi</m:mi></m:math>, is referred to as the <emphasis>imaginary part</emphasis>.</para>
+    <table id="element-701" summary="A table showing some examples of complex numbers."><tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry namest="c1" nameend="c2">Examples of complex numbers <m:math><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>bi</m:mi></m:math> (<m:math><m:mi>a</m:mi></m:math> is the “real part”; <m:math><m:mi>bi</m:mi></m:math> is the “imaginary part”)</entry>
+</row>
+</thead>
+<tbody>
+  <row>
+    <entry><m:math><m:mn>3</m:mn><m:mo>+</m:mo><m:mi>2i</m:mi></m:math></entry>
+    <entry><m:math><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:math>, <m:math><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry><m:math><m:mn>π</m:mn></m:math></entry>
+    <entry><m:math><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>π</m:mn></m:math>, <m:math><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math>(no imaginary part: a “pure real number”)</entry>
+  </row>
+<row>
+<entry><m:math><m:mn>-i</m:mn></m:math></entry>
+<entry><m:math><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math>, <m:math><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>-1</m:mn></m:math> (no real part: a “pure imaginary number”)</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+    
+    
+    
+    
+    <para id="id48016905">Some numbers are not obviously in the form <m:math><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>bi</m:mi></m:math>. However, any number can be <emphasis>put</emphasis> in this form.</para>
+    <table id="element-790" summary="">
+<tgroup cols="1"><thead>
+  <row>
+    <entry>Example 1: Putting a fraction into <m:math><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>bi</m:mi></m:math> form (<m:math><m:mi>i</m:mi></m:math> in the numerator)</entry>
+  </row></thead>
+<tbody>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">−</m:mo><m:mn>4i</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3 - 4i}  over  {5} } } {}</m:annotation></m:semantics></m:math> is a valid complex number. But it is not in the form <m:math><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>bi</m:mi></m:math>, and we cannot immediately see what the real and imaginary parts are.</entry>
+  </row>
+  <row>
+    <entry>To see the parts, we rewrite it like this:</entry>
+  </row>
+<row>
+<entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">−</m:mo><m:mn>4i</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3 - 4i}  over  {5} } } {}</m:annotation></m:semantics></m:math><m:math><m:mo>=</m:mo></m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {5} } } {}</m:annotation></m:semantics></m:math>–
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {4}  over  {5} } } {}</m:annotation></m:semantics><m:mi>i</m:mi></m:math></entry>
+</row>
+<row>
+<entry>Why does that work? It’s just the ordinary rules of fractions, applied backward. (Try multiplying and then subtracting on the right to confirm this.) But now we have a form we can use:</entry>
+</row>
+<row>
+<entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">−</m:mo><m:mn>4i</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3 - 4i}  over  {5} } } {}</m:annotation></m:semantics></m:math> <m:math><m:mi>a</m:mi><m:mo>=</m:mo></m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {5} } } {}</m:annotation></m:semantics></m:math>, <m:math><m:mi>b</m:mi><m:mo>=</m:mo><m:mo>–</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {4}  over  {5} } } {}</m:annotation></m:semantics></m:math></entry>
+</row>
+<row>
+<entry>So we see that fractions are very easy to break up, if the <m:math><m:mi>i</m:mi></m:math> is in the numerator. An <m:math><m:mi>i</m:mi></m:math> in the denominator is a bit trickier to deal with.</entry>
+</row>
+</tbody>
+
+
+
+
+
+
+
+
+</tgroup>
+</table>
+    
+    
+    
+    
+    
+    
+    <table id="element-933" summary="">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry namest="c1" nameend="c2">Example 2: Putting a fraction into <m:math><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>bi</m:mi></m:math> form (<m:math><m:mi>i</m:mi></m:math> in the denominator)</entry>
+</row></thead>
+<tbody>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>i</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {i} } } {}</m:annotation></m:semantics></m:math> <m:math><m:mo>=</m:mo></m:math> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">⋅</m:mo><m:mi>i</m:mi></m:mrow><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">⋅</m:mo><m:mi>i</m:mi></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1 cdot i}  over  {i cdot i} } } {}</m:annotation></m:semantics></m:math></entry>
+    <entry><emphasis>Multiplying the top and bottom of a fraction by the </emphasis><emphasis>same number</emphasis><emphasis> never changes the value of the fraction: it just rewrites it in a different form.</emphasis></entry>
+  </row>
+  <row>
+    <entry><m:math><m:mo>=</m:mo></m:math> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>i</m:mi><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {i}  over  { - 1} } } {}</m:annotation></m:semantics></m:math></entry>
+    <entry><emphasis>Because <m:math><m:mi>i</m:mi><m:mo>•</m:mo><m:mi>i</m:mi> </m:math> is <m:math><m:msup><m:mi>i</m:mi><m:mn>2</m:mn></m:msup></m:math></emphasis><emphasis>, or –1.</emphasis></entry>
+  </row>
+  <row>
+    <entry><m:math><m:mo>=</m:mo><m:mi>-i</m:mi></m:math></entry>
+    <entry><emphasis>This is not a property of <m:math><m:mi>i</m:mi></m:math>, but of –1. Similarly,</emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {5}  over  { - 1} } } {}</m:annotation></m:semantics></m:math> <m:math><m:mo>=</m:mo>
+<m:mn>–5</m:mn></m:math>.</entry>
+  </row>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>i</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {i} } } {}</m:annotation></m:semantics></m:math>: <m:math><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math>, <m:math><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>-1</m:mn></m:math></entry>
+    <entry><emphasis>since we rewrote it as</emphasis> <m:math><m:mi>-i</m:mi></m:math>, <emphasis>or</emphasis> <m:math><m:mn>0</m:mn><m:mo>-</m:mo><m:mi>1i</m:mi></m:math></entry>
+  </row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+    
+    
+    
+    
+    <para id="id47551094">Finally, what if the denominator is a more complicated complex number? The trick in this case is similar to the trick we used for rationalizing the denominator: we multiply by a quantity known as the <emphasis>complex conjugate of the denominator</emphasis>.</para>
+    <para id="id48477086"><title>Definition of Complex Conjugate</title>The complex conjugate of the number <m:math><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>bi</m:mi></m:math> is <m:math><m:mi>a</m:mi><m:mo>-</m:mo><m:mi>bi</m:mi></m:math>. In words, you leave the real part alone, and change the sign of the imaginary part.</para>
+    
+    <para id="id47659631">Here is how we can use the “complex conjugate” to simplify a fraction.</para>
+    <table id="element-923" summary="">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+  <row>
+    <entry namest="c1" nameend="c2">Example: Using the Complex Conjugate to put a fraction into <m:math><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>bi</m:mi></m:math> form</entry>
+  </row></thead>
+<tbody>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">−</m:mo><m:mn>4i</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {5}  over  {3 - 4i} } } {}</m:annotation></m:semantics></m:math></entry>
+    <entry><emphasis>The fraction: a complex number not currently in the form</emphasis> <m:math>
+<m:mi>a</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mi>i</m:mi>
+</m:math></entry>
+  </row>
+  <row>
+    <entry><m:math><m:mo>=</m:mo></m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi/><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">+</m:mo><m:mn>4i</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">−</m:mo><m:mn>4i</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">+</m:mo><m:mn>4i</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {5` \( 3+4i \) }  over  { \( 3 - 4i \)  \( 3+4i \) } } } {}</m:annotation></m:semantics></m:math></entry>
+    <entry><emphasis>Multiply the top and bottom by the complex conjugate of the denominator</emphasis></entry>
+  </row>
+  <row>
+    <entry><m:math><m:mo>=</m:mo></m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mrow><m:mtext>15</m:mtext><m:mo stretchy="false">+</m:mo><m:mtext>20</m:mtext></m:mrow><m:mi>i</m:mi></m:mrow><m:mrow><m:mrow><m:msup><m:mn>3</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>4i</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"15"+"20"i}  over  {3 rSup { size 8{2} }  -  \( 4i \)  rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math></entry>
+    <entry><emphasis>Remember,</emphasis> <m:math><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>a</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>–a</m:mi><m:mn>2</m:mn></m:msup></m:math></entry>
+  </row>
+  <row>
+    <entry><m:math><m:mo>=</m:mo></m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mrow><m:mtext>15</m:mtext><m:mo stretchy="false">+</m:mo><m:mtext>20</m:mtext></m:mrow><m:mi>i</m:mi></m:mrow><m:mrow><m:mn>9</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>16</m:mtext></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"15"+"20"i}  over  {9+"16"} } } {}</m:annotation></m:semantics></m:math></entry>
+    <entry><m:math><m:msup><m:mrow><m:mo>(</m:mo><m:mi>4i</m:mi><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mn>2</m:mn></m:msup><m:msup><m:mi>i</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16</m:mn><m:mo>(</m:mo><m:mn>–1</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>–16</m:mn></m:math>, <emphasis>which we are </emphasis><emphasis>subtracting</emphasis><emphasis> from 9</emphasis></entry>
+  </row>
+  <row>
+    <entry><m:math><m:mo>=</m:mo></m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mrow><m:mtext>15</m:mtext><m:mo stretchy="false">+</m:mo><m:mtext>20</m:mtext></m:mrow><m:mi>i</m:mi></m:mrow><m:mtext>25</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"15"+"20"i}  over  {"25"} } } {}</m:annotation></m:semantics></m:math></entry>
+    <entry><emphasis>Success! The </emphasis><emphasis>top</emphasis><emphasis> has</emphasis> <m:math><m:mi>i</m:mi></m:math>, <emphasis>but the </emphasis><emphasis>bottom</emphasis><emphasis> doesn’t. This is easy to deal with.</emphasis></entry>
+  </row>
+<row>
+<entry><m:math><m:mo>=</m:mo></m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>15</m:mtext><m:mtext>25</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"15"}  over  {"25"} } } {}</m:annotation></m:semantics></m:math><m:math><m:mo>+</m:mo></m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mtext>20</m:mtext><m:mi>i</m:mi></m:mrow><m:mtext>25</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"20"i}  over  {"25"} } } {}</m:annotation></m:semantics></m:math></entry>
+<entry><emphasis>Break the fraction up, just as we did in a previous example.</emphasis></entry>
+</row>
+<row>
+<entry><m:math><m:mo>=</m:mo></m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {5} } } {}</m:annotation></m:semantics></m:math><m:math><m:mo>+</m:mo></m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {4}  over  {5} } } {}</m:annotation></m:semantics><m:mi>i</m:mi></m:math> </entry>
+<entry><emphasis>So we’re there!</emphasis> <m:math><m:mi>a</m:mi><m:mo>=</m:mo></m:math>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {5} } } {}</m:annotation></m:semantics></m:math> and
+<m:math><m:mi>b</m:mi><m:mo>=</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {4}  over  {5} } } {}</m:annotation></m:semantics></m:math></entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table>
+    
+    
+    
+    
+    
+    
+    
+    <para id="id48290277">Any number of any kind can be written as <m:math><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>bi</m:mi></m:math>. The above examples show how to rewrite fractions in this form. In the text, you go through a worksheet designed to rewrite 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mroot><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:mroot></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ nroot { size 8{3} }  { - 1} } {}</m:annotation></m:semantics></m:math> as three different complex numbers. Once you understand this exercise, you can rewrite other radicals, such as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mi>i</m:mi></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {i} } {}</m:annotation></m:semantics></m:math>, in <m:math><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>bi</m:mi></m:math> form.</para>
+  </content>
+</document>

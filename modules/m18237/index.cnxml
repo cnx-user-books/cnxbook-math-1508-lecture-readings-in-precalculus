@@ -1,0 +1,190 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Logarithm Concepts -- Common Logarithms</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18237</md:content-id>
+  <md:title>Logarithm Concepts -- Common Logarithms</md:title>
+  <md:abstract>This module covers some of the logarithms commonly encountered in algebra.</md:abstract>
+  <md:uuid>82004024-e9af-4af2-9533-fa5e50ee8e4a</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/inverse-exponential-and-logarithmic-functions/t/common-and-natural-logarithms" strength="3">Common Logarithm Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id12841130">When you see a root without a number in it, it is assumed to be a <emphasis>square</emphasis> root. That is, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mtext>25</m:mtext></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {"25"} } {}</m:annotation></m:semantics></m:math>is a shorthand way of writing 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mroot><m:mtext>25</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:mroot></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ nroot { size 8{2} }  {"25"} } {}</m:annotation></m:semantics></m:math>. This rule is employed because <emphasis>square</emphasis> roots are more common than other types.</para>
+    <para id="id12839745">When you see a logarithm without a number in it, it is assumed to be a <emphasis>base 10</emphasis> logarithm. That is, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>log</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>1000</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"log" \( "1000" \) } {}</m:annotation></m:semantics></m:math> is a shorthand way of writing 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mtext>log</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mtext>10</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:mtext>1000</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"log" rSub { size 8{"10"} }  \( "1000" \) } {}</m:annotation></m:semantics></m:math>. A base 10 logarithm is also known as a “common” log.</para>
+    <para id="id12839880">Why are common logs particularly useful? Well, what is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mtext>log</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mtext>10</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:mtext>1000</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"log" rSub { size 8{"10"} }  \( "1000" \) } {}</m:annotation></m:semantics></m:math>? By now you know that this asks the question “10 to what power is 1000?” The answer is 3. Similarly, you can confirm that:</para>
+    <equation id="id12839958">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>log</m:mtext>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>10</m:mtext>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"log" \( "10" \) =1} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="id12721374">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>log</m:mtext>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>100</m:mtext>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"log" \( "100" \) =2} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="id12721438">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>log</m:mtext>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>1,</m:mn>
+                  <m:mtext>000</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mtext>000</m:mtext>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"log" \( 1,"000","000" \) =6} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id12721508">We can also follow this pattern backward:</para>
+    <equation id="id12721512">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>log</m:mtext>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"log" \( 1 \) =0} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="id12721577">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>log</m:mtext>
+                  <m:mrow>
+                    <m:mfenced open="(" close=")">
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mtext>10</m:mtext>
+                      </m:mfrac>
+                    </m:mfenced>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"log" left ( {  {1}  over  {"10"} }  right )= - 1} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="id12721647">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>log</m:mtext>
+                  <m:mrow>
+                    <m:mfenced open="(" close=")">
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mtext>100</m:mtext>
+                      </m:mfrac>
+                    </m:mfenced>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"log" left ( {  {1}  over  {"100"} }  right )= - 2} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id12721717">and so on. In other words, the common log tells you the <emphasis>order of magnitude</emphasis> of a number: how many zeros it has. Of course, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mtext>log</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mtext>10</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:mtext>500</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"log" rSub { size 8{"10"} }  \( "500" \) } {}</m:annotation></m:semantics></m:math> is difficult to determine exactly without a calculator, but we can say immediately that it must be somewhere between 2 and 3, since 500 is between 100 and 1000.</para>
+  </content>
+</document>

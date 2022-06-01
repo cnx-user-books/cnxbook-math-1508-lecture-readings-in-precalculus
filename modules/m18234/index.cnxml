@@ -1,0 +1,1462 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Exponent Concepts -- Zero, negative numbers, and fractions as exponents</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18234</md:content-id>
+  <md:title>Exponent Concepts -- Zero, negative numbers, and fractions as exponents</md:title>
+  <md:abstract>This module covers how zero, negative numbers, and fractions can be used as exponents.</md:abstract>
+  <md:uuid>0a9373bf-7d79-4e4d-8872-c760b6c5b546</md:uuid>
+</metadata>
+
+<content>
+    <para id="id8391646">The definition of exponents given at the beginning of this section—
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>6</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{6} } } {}</m:annotation></m:semantics></m:math>means 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>10</m:mtext></m:mrow><m:mo stretchy="false">⋅</m:mo><m:mtext>10</m:mtext></m:mrow><m:mo stretchy="false">⋅</m:mo><m:mtext>10</m:mtext></m:mrow><m:mo stretchy="false">⋅</m:mo><m:mtext>10</m:mtext></m:mrow><m:mo stretchy="false">⋅</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" cdot "10" cdot "10" cdot "10" cdot "10" cdot "10"} {}</m:annotation></m:semantics></m:math>—does <emphasis>not</emphasis> enable us to answer questions such as:</para>
+    <equation id="id9011591">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>4</m:mn>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi>?</m:mi>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{4 rSup { size 8{0} } =?} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="id8237973">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>5</m:mn>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi>?</m:mi>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{5 rSup { size 8{ - 4} } =?} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="id9233938">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>9</m:mn>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mstyle fontsize="6pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="6pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi>?</m:mi>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{9 rSup { size 8{ {  { size 6{1} }  over  { size 6{2} } } } } =?} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id8489051">You can’t “multiply 9 by itself half a time” or “multiply 5 by itself 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 4} {}</m:annotation></m:semantics></m:math> times.” In general, the original definition only applies if the exponent is a <emphasis>positive integer</emphasis>.</para>
+    <para id="id7923580">It’s very important to understand this point. The question is <emphasis>not</emphasis> “What answer does our original definition give in these cases?” The original definition does <emphasis>not</emphasis> give any answer in these cases. If we want to include these numbers, we need a whole new definition of what an exponent is.</para>
+    <para id="id4644384">In principle, many such definitions are possible. We <emphasis>could</emphasis> define 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>5</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 rSup { size 8{ - 4} } } {}</m:annotation></m:semantics></m:math> as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">/</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5/5/5/5} {}</m:annotation></m:semantics></m:math>: in other words, divide four times instead of multiplying four times. Or we <emphasis>could</emphasis> define 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>5</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 rSup { size 8{ - 4} } } {}</m:annotation></m:semantics></m:math>as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>5</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 rSup { size 8{ - 4} } } {}</m:annotation></m:semantics></m:math>: take 5 to the fourth power, and then multiply it by 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 1} {}</m:annotation></m:semantics></m:math>. Or we <emphasis>could</emphasis> define 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>5</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 rSup { size 8{ - 4} } } {}</m:annotation></m:semantics></m:math> as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>5</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>4</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  \( 5 \)  rSup { size 8{4} } } {}</m:annotation></m:semantics></m:math>: take 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 5} {}</m:annotation></m:semantics></m:math> to the fourth power (which gives a different answer from the previous definition). It seems at first that we are at liberty to choose any definition we want.</para>
+    <para id="id8204820">Given that degree of freedom, you may be very surprised at the definitions that are actually used: they seem far more arbitrary and complicated than some others you could come up with.</para>
+   
+
+<table id="eip-284" summary="Defines the rules for handling exponents that are not a positive integer. Each column describes a different scenario, with examples provided in the rows."><title>Definitions: When the exponent is not a positive integer</title>
+<tgroup cols="4"><colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+
+<thead>
+          <row>
+            <entry>
+              Zero exponents
+            </entry>
+            <entry>
+              Negative exponents
+            </entry>
+            <entry>
+              Fractional exponents
+              (numerator = 1)
+            </entry>
+            <entry>
+              Fractional exponents
+              (numerator ≠ 1)
+            </entry>
+          </row>
+</thead>
+
+
+<tbody>
+
+
+
+          <row>
+            <entry>Always 1</entry>
+            <entry>Go in the denominator</entry>
+            <entry>Act as roots</entry>
+            <entry>The <emphasis>numerator</emphasis> is an exponent
+              <newline/>
+              The <emphasis>denominator</emphasis> is a root</entry>
+          </row>
+<row>
+ <entry>
+  <m:math>
+   <m:msup>
+    <m:mn>7</m:mn>
+    <m:mn>0</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo>
+   <m:mn>1</m:mn>
+  </m:math>
+  <newline/>
+  <m:math>
+   <m:msup>
+    <m:mn>9</m:mn>
+    <m:mn>0</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo>
+   <m:mn>1</m:mn>
+  </m:math>
+  <newline/>
+  <m:math>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>0</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo>
+   <m:mn>1</m:mn>
+  </m:math>
+
+ </entry>
+
+
+ <entry>
+  <m:math>
+   <m:msup>
+    <m:mn>7</m:mn>
+    <m:mn>-3</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:msup>
+     <m:mn>7</m:mn>
+     <m:mn>3</m:mn>
+    </m:msup>
+   </m:mfrac>
+   <m:mo>=</m:mo>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>343</m:mn>
+   </m:mfrac>
+  </m:math>
+  
+  <newline/>
+
+  <m:math>
+   <m:msup> 
+    <m:mi>x</m:mi>
+    <m:mn>-5</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>5</m:mn>
+    </m:msup>
+   </m:mfrac>
+  </m:math>
+ 
+  <newline/>
+
+  <m:math>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:msup>
+     <m:mn>5</m:mn>
+     <m:mn>-3</m:mn>
+    </m:msup>
+   </m:mfrac>
+   <m:mo>=</m:mo>
+   <m:msup>
+    <m:mn>5</m:mn>
+    <m:mn>3</m:mn>
+   </m:msup>
+  </m:math>
+ </entry>
+
+
+
+
+
+
+ <entry>
+  <m:math>
+   <m:msup>
+    <m:mn>9</m:mn>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+   </m:msup>
+   <m:mo>=</m:mo>
+   <m:msqrt>
+    <m:mn>9</m:mn>
+   </m:msqrt>
+   <m:mo>=</m:mo>
+   <m:mn>3</m:mn>
+  </m:math>
+  
+  <newline/>
+
+  <m:math>
+   <m:msup>
+    <m:mn>2</m:mn>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+   </m:msup>
+   <m:mo>=</m:mo>
+   <m:msqrt>
+    <m:mn>2</m:mn>
+   </m:msqrt>
+  </m:math>
+ 
+  <newline/>
+
+  <m:math>
+   <m:msup>
+    <m:mn>8</m:mn>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+   </m:msup>
+   <m:mo>=</m:mo>
+   <m:mroot>
+    <m:mn>8</m:mn>
+    <m:mn>3</m:mn>
+   </m:mroot>
+   <m:mo>=</m:mo>
+   <m:mn>2</m:mn>
+  </m:math>
+
+  <newline/>
+ 
+  <m:math>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+   </m:msup>
+   <m:mo>=</m:mo>
+   <m:mroot>
+    <m:mi>x</m:mi>
+    <m:mn>4</m:mn>
+   </m:mroot>
+  </m:math>
+ </entry>
+
+
+
+ <entry>
+  <m:math>
+   <m:msup>
+    <m:mn>8</m:mn>
+    <m:mfrac>
+     <m:mn>2</m:mn>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+   </m:msup>
+   <m:mo>=</m:mo>
+   <m:mroot>
+    <m:msup>
+     <m:mn>8</m:mn>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mn>3</m:mn>
+   </m:mroot>
+  </m:math>
+  <emphasis> or </emphasis>
+  <m:math>
+   <m:msup>
+    <m:mrow>
+     <m:mo>(</m:mo>
+     <m:mroot>
+      <m:mn>8</m:mn>
+      <m:mn>3</m:mn>
+     </m:mroot>
+     <m:mo>)</m:mo>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+  </m:math>
+ 
+  <newline count="2"/>
+
+  Order doesn't matter!
+
+  <newline/>
+
+  <m:math>
+   <m:mroot>
+    <m:msup>
+     <m:mn>8</m:mn>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mn>3</m:mn>
+   </m:mroot>
+   <m:mo>=</m:mo>
+   <m:mroot>
+    <m:mn>64</m:mn>
+    <m:mn>3</m:mn>
+   </m:mroot>
+   <m:mo>=</m:mo>
+   <m:mn>4</m:mn>
+  </m:math>
+
+  <emphasis>or</emphasis>
+
+  <m:math>
+   <m:msup>
+    <m:mrow>
+     <m:mo>(</m:mo>
+     <m:mroot>
+      <m:mn>8</m:mn>
+      <m:mn>3</m:mn>
+     </m:mroot>
+     <m:mo>)</m:mo>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo>
+   <m:msup>
+    <m:mn>2</m:mn>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo>
+   <m:mn>4</m:mn>
+  </m:math>
+
+  <newline count="2"/>
+
+  <m:math display="display">
+     <m:apply>
+    <m:power/>
+    <m:cn>8</m:cn>
+    <m:apply>
+      <m:divide/>
+      <m:cn>3</m:cn>
+      <m:cn>2</m:cn>
+    </m:apply>
+  </m:apply>
+   <m:mo>=</m:mo>
+   <m:msqrt>
+    <m:msup>
+     <m:mn>8</m:mn>
+     <m:mn>3</m:mn>
+    </m:msup>
+   </m:msqrt>
+  </m:math>
+  <emphasis> or </emphasis>
+  <m:math>
+   <m:msup>
+    <m:mrow>
+     <m:mo>(</m:mo>
+     <m:msqrt>
+      <m:mn>8</m:mn>
+     </m:msqrt>
+     <m:mo>)</m:mo>
+    </m:mrow>
+    <m:mn>3</m:mn>
+   </m:msup>
+  </m:math>
+ </entry>
+
+
+
+</row>
+
+
+</tbody>
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table>
+
+
+    <para id="id7905938">Note that you can <emphasis>combine</emphasis> these definitions. For instance, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>8</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mstyle fontsize="6pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="6pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 rSup { size 8{ -  {  { size 6{2} }  over  { size 6{3} } } } } } {}</m:annotation></m:semantics></m:math> is a negative, fractional exponent. The negative exponent means, as always, “put me in the denominator.” So we can write:</para>
+    <equation id="id8415605">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>8</m:mn>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mfrac>
+                              <m:mstyle fontsize="6pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mstyle fontsize="6pt">
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msup>
+                        <m:mn>8</m:mn>
+                        <m:mfrac>
+                          <m:mstyle fontsize="6pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="6pt">
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                      </m:msup>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mroot>
+                            <m:msup>
+                              <m:mn>8</m:mn>
+                              <m:mn>2</m:mn>
+                            </m:msup>
+                            <m:mn>3</m:mn>
+                          </m:mroot>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mn>4</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{8 rSup { size 8{ -  {  { size 6{2} }  over  { size 6{3} } } } } = {  {1}  over  {8 rSup { {  { size 6{2} }  over  { size 6{3} } } } } }  size 12{ {}= {  {1}  over  { nroot {3}  {8 rSup {2} } } } } size 12{ {}= {  {1}  over  {4} } }} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <section id="id-431890484743">
+      <title>OK, so why define exponents that way?</title>
+      <para id="id8415782">These are obviously not chosen to be the <emphasis>simplest</emphasis> possible definitions. But they are chosen to be <emphasis>consistent</emphasis> with the behavior of positive-integer exponents.</para>
+      <para id="id8415800">One way to see that consistency is to consider the following progression:</para>
+      <equation id="id8415806">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext>19</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mtext>19</m:mtext>
+                          <m:mo stretchy="false">⋅</m:mo>
+                          <m:mtext>19</m:mtext>
+                        </m:mrow>
+                        <m:mo stretchy="false">⋅</m:mo>
+                        <m:mtext>19</m:mtext>
+                      </m:mrow>
+                      <m:mo stretchy="false">⋅</m:mo>
+                      <m:mtext>19</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{4} } ="19" cdot "19" cdot "19" cdot "19"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id8941098">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext>19</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mtext>19</m:mtext>
+                        <m:mo stretchy="false">⋅</m:mo>
+                        <m:mtext>19</m:mtext>
+                      </m:mrow>
+                      <m:mo stretchy="false">⋅</m:mo>
+                      <m:mtext>19</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{3} } ="19" cdot "19" cdot "19"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id8941174">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext>19</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mtext>19</m:mtext>
+                      <m:mo stretchy="false">⋅</m:mo>
+                      <m:mtext>19</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{2} } ="19" cdot "19"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id8941242">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext>19</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>19</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{1} } ="19"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id8941303">What happens each time we decrease the exponent by 1? Your first response might be “we have one less 19.” But what is really happening, mathematically, to the numbers on the right? The answer is that, with each step, they are <emphasis>dividing by</emphasis> 19. If you take 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>19</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>19</m:mtext></m:mrow><m:mo stretchy="false">⋅</m:mo><m:mtext>19</m:mtext></m:mrow><m:mo stretchy="false">⋅</m:mo><m:mtext>19</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"19" cdot "19" cdot "19" cdot "19"} {}</m:annotation></m:semantics></m:math>, and <emphasis>divide it by</emphasis> 19, you get 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mtext>19</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>19</m:mtext></m:mrow><m:mo stretchy="false">⋅</m:mo><m:mtext>19</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"19" cdot "19" cdot "19"} {}</m:annotation></m:semantics></m:math>. Divide that by 19 again, and you get 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>19</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>19</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"19" cdot "19"} {}</m:annotation></m:semantics></m:math>...and so on. From this we can formulate the following principle for the powers of 19:</para>
+      <para id="id8946950">Whenever you <emphasis>subtract 1</emphasis> from the exponent, you <emphasis>divide the answer by</emphasis> 19.</para>
+      <para id="id8946969">As I said earlier, we want the behavior of our new exponents to be consistent with the behavior of the <emphasis>old</emphasis> (positive-integer) exponents. So we can continue this progression as follows:</para>
+      <equation id="id8946988">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mtext>19</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mtext>19</m:mtext>
+                        <m:mtext>19</m:mtext>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{0} } = {  {"19"}  over  {"19"} } =1} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id8947060">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext>19</m:mtext>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mtext>19</m:mtext>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{ - 1} } = {  {1}  over  {"19"} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id8947130">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mtext>19</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mfrac>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mtext>19</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                        <m:mtext>19</m:mtext>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msup>
+                        <m:mtext>19</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"19" rSup { size 8{ - 2} } = {  { {  { size 8{1} }  over  { size 8{"19"} } } }  over  {"19"} } = {  {1}  over  {"19" rSup { size 8{2} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id7810910">...and so on. We can arrive at our definitions 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mtext>anything</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"anything" rSup { size 8{0} } =1} {}</m:annotation></m:semantics></m:math> and <emphasis>negative exponents go in the denominator</emphasis> by simply requiring this progression to be consistent.</para>
+      <para id="id7810981">More rigorously, we can find all our exponent definitions by using the <emphasis>laws of exponents</emphasis>. For instance, what is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math>? We can approach this question indirectly by asking: what is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {4 rSup { size 8{2} } }  over  {4 rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>?</para>
+      <list id="id7811109" list-type="bulleted">
+        <item>The second law of exponents tells us that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">=</m:mo><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {4 rSup { size 8{2} } }  over  {4 rSup { size 8{2} } } } =4 rSup { size 8{2 - 2} } } {}</m:annotation></m:semantics></m:math>, which is of course 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math>.</item>
+        <item>But of course, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {4 rSup { size 8{2} } }  over  {4 rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math> is just 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>16</m:mtext><m:mtext>16</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"16"}  over  {"16"} } } {}</m:annotation></m:semantics></m:math>, or 1.</item>
+        <item>Since 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {4 rSup { size 8{2} } }  over  {4 rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math> is both 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math><emphasis>and</emphasis> 1, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math> and 1 must be the same thing!</item>
+      </list>
+      <para id="id9205452">The proofs given below all follow this pattern. They use the laws of exponents to rewrite expressions such as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {4 rSup { size 8{2} } }  over  {4 rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>, and go on to show how zero, negative, and fractional exponents must be defined. We started with the definition of an exponent for a positive integer, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>6</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>10</m:mtext></m:mrow><m:mo stretchy="false">⋅</m:mo><m:mtext>10</m:mtext></m:mrow><m:mo stretchy="false">⋅</m:mo><m:mtext>10</m:mtext></m:mrow><m:mo stretchy="false">⋅</m:mo><m:mtext>10</m:mtext></m:mrow><m:mo stretchy="false">⋅</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{6} } ="10" cdot "10" cdot "10" cdot "10" cdot "10" cdot "10"} {}</m:annotation></m:semantics></m:math>. From there, we developed the laws of exponents. Now we find that, if we want those same laws to apply to other kinds of exponents, there is only one correct way to define those other kinds of exponents.</para>
+ 
+
+     
+
+
+<table id="id9205630" summary="Defines the rules for handling exponents that are not a positive integer. Each column describes a different scenario, with examples provided in the rows. This table provides proofs for the rules defined in the previous table."><title>Proofs: When the exponent is not a positive integer</title>
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+<thead>
+          <row>
+            <entry>
+              Zero exponents
+            </entry>
+            <entry>
+              Negative exponents
+            </entry>
+            <entry>
+              Fractional exponents
+              (numerator = 1)
+            </entry>
+            <entry>
+              Fractional exponents
+              (numerator ≠ 1)
+            </entry>
+          </row>
+</thead>
+
+          <tbody>
+
+ 
+           
+
+
+ <row>
+              <entry>Always 1</entry>
+              <entry>Go in the denominator</entry>
+              <entry>Act as roots</entry>
+              <entry>The <emphasis>numerator</emphasis> is an exponent
+                     <newline/>The <emphasis>denominator</emphasis> is a root</entry>
+            </row>
+
+
+<row>
+<entry><m:math>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mn>4</m:mn>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mn>4</m:mn>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mn>4</m:mn>
+<m:mrow>
+<m:mn>2</m:mn>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+</m:mrow>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mn>4</m:mn>
+<m:mn>0</m:mn>
+</m:msup>
+
+</m:math>
+<newline/>
+
+<emphasis>but </emphasis>
+
+
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mn>4</m:mn>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mn>4</m:mn>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>16</m:mn>
+<m:mn>16</m:mn>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+</m:math>
+
+<newline/>
+<emphasis>so </emphasis>
+
+
+
+<m:math>
+<m:msup>
+<m:mn>4</m:mn>
+<m:mn>0</m:mn>
+</m:msup>
+</m:math> must be 1!
+</entry>
+
+
+<entry>
+<m:math>
+
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mn>10</m:mn>
+<m:mn>1</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mn>10</m:mn>
+<m:mn>3</m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mn>10</m:mn>
+<m:mrow>
+<m:mn>1</m:mn>
+<m:mo>-</m:mo>
+<m:mn>3</m:mn>
+</m:mrow>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mn>10</m:mn>
+<m:mn>-2</m:mn>
+</m:msup>
+</m:math>
+
+<newline/>
+<emphasis>but </emphasis>
+
+
+
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mn>10</m:mn>
+<m:mn>1</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mn>10</m:mn>
+<m:mn>3</m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>10</m:mn>
+<m:mrow>
+<m:mn>10</m:mn>
+<m:mo>·</m:mo>
+<m:mn>10</m:mn>
+<m:mo>·</m:mo>
+<m:mn>10</m:mn>
+</m:mrow>
+</m:mfrac>
+
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mn>10</m:mn>
+<m:mo>·</m:mo>
+<m:mn>10</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:math>
+
+<newline/>
+<emphasis>so </emphasis>
+
+<m:math>
+<m:msup>
+<m:mn>10</m:mn>
+<m:mn>-2</m:mn>
+</m:msup>
+</m:math>
+
+must be 
+
+<m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:msup>
+<m:mn>10</m:mn>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+
+</m:math>
+</entry>
+
+
+
+<entry>
+<m:math>
+
+<m:mo>(</m:mo>
+<m:msup>
+<m:mn>9</m:mn>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mn>9</m:mn>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>·</m:mo>
+<m:mn>2</m:mn>
+</m:mrow>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mn>9</m:mn>
+<m:mn>1</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>9</m:mn>
+</m:math>
+
+
+<newline/>
+<emphasis>So</emphasis> what is 
+
+<m:math>
+<m:msup>
+<m:mn>9</m:mn>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+</m:math>
+?
+
+
+<newline/>
+Well, when you <emphasis>square</emphasis> it, you get 9.
+
+<newline/>
+
+So it must be 
+<m:math>
+<m:msqrt>
+<m:mn>9</m:mn>
+</m:msqrt>
+</m:math>, or 3!
+</entry>
+
+
+
+
+<entry>
+<m:math>
+
+<m:msup>
+ <m:mn>8</m:mn>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+ <m:mrow>
+  <m:mo>(</m:mo>
+   <m:msup>
+    <m:mn>8</m:mn>
+    <m:mrow>
+     <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>3</m:mn>
+     </m:mfrac>
+    </m:mrow>
+   </m:msup>
+  <m:mo>)</m:mo>
+ </m:mrow>
+ <m:mn>2</m:mn>
+</m:msup>
+
+<m:mo>=</m:mo>
+
+<m:msup>
+ <m:mrow>
+  <m:mo>(</m:mo>
+   <m:mroot>
+    <m:mrow>
+     <m:mn>8</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>3</m:mn>
+    </m:mrow>
+   </m:mroot>
+  <m:mo>)</m:mo>
+ </m:mrow>
+ <m:mn>2</m:mn>
+</m:msup>
+</m:math>
+
+<newline/><emphasis>or</emphasis><newline/>
+
+<m:math>
+<m:msup>
+<m:mn>8</m:mn>
+<m:mrow>
+<m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+
+<m:mo>=</m:mo>
+
+<m:msup>
+ <m:mrow>
+  <m:mo>(</m:mo>
+   <m:msup>
+    <m:mn>8</m:mn>
+    <m:mn>2</m:mn>
+   </m:msup>
+  <m:mo>)</m:mo>
+ </m:mrow> 
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:msup>
+
+
+<m:mo>=</m:mo>
+
+<m:mroot>
+ <m:mrow>
+  <m:msup>
+   <m:mn>8</m:mn>
+   <m:mn>2</m:mn>
+  </m:msup>
+ </m:mrow>
+ <m:mrow><m:mn>3</m:mn></m:mrow>
+</m:mroot>
+
+</m:math>
+
+
+</entry>
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table> 
+
+
+
+ 
+      <para id="id9355097">You may want to experiment with making these proofs more general and more rigorous by using letters instead of numbers. For instance, in the third case, we could write:</para>
+      <equation id="id9355104">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mstyle fontsize="6pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="6pt">
+                              <m:mrow>
+                                <m:mi>a</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi>a</m:mi>
+                    </m:msup>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mfenced open="(" close=")">
+                                <m:mfrac>
+                                  <m:mstyle fontsize="6pt">
+                                    <m:mrow>
+                                      <m:mn>1</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mstyle fontsize="6pt">
+                                    <m:mrow>
+                                      <m:mi>a</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mfrac>
+                              </m:mfenced>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>a</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \( x rSup { size 8{ {  { size 6{1} }  over  { size 6{a} } } } }  \)  rSup {a}  size 12{ {}=x rSup { left ( {  { size 6{1} }  over  { size 6{a} } }  right ) \( a \) } } size 12{ {}=x rSup {1} }} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id9355245">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mstyle fontsize="6pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="6pt">
+                              <m:mrow>
+                                <m:mi>a</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi>a</m:mi>
+                    </m:msup>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \( x rSup { size 8{ {  { size 6{1} }  over  { size 6{a} } } } }  \)  rSup {a}  size 12{ {}=x}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id8827206">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mroot>
+                      <m:msup>
+                        <m:mfenced open="(" close=")">
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow/>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mfenced>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>a</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mroot>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mroot>
+                      <m:mi>x</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>a</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mroot>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ nroot { size 8{a} }  { left (x rSup { size 8{ {1} wideslash {a} } }  right ) rSup { size 8{a} } } = nroot { size 8{a} }  {x} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id8827292">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mstyle fontsize="6pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="6pt">
+                              <m:mrow>
+                                <m:mi>a</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mroot>
+                      <m:mi>x</m:mi>
+                      <m:mi>a</m:mi>
+                    </m:mroot>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{ {  { size 6{1} }  over  { size 6{a} } } } } = nroot {a}  {x} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+    </section>
+  </content>
+</document>

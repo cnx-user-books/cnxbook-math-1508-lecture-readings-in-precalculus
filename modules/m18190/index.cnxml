@@ -1,0 +1,154 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Function Concepts -- The Rule of Consistency</title>
+  <metadata>
+  <md:content-id>m18190</md:content-id><md:title>Function Concepts -- The Rule of Consistency</md:title>
+  <md:abstract>This module discusses how functions must be consistent.</md:abstract>
+  <md:uuid>9a156966-0156-4c3b-a1d0-62c21a21e005</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">There is only one limitation on what a function can do: <emphasis>a function must be consistent.</emphasis>
+    </para><para id="element-737">For instance, the function in the above drawing is given a 5, and gives back a 16.  That means this particular function turns 5 into 16—always.  That particular function can never take in a 5 and give back a 14.  This “rule of consistency” is a very important constraint on the nature of functions.</para><note id="id14063419"><emphasis>This rule does not treat the inputs and outputs the same!</emphasis></note><para id="element-470">For instance, consider the function 
+      <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math>.  This function takes both 3 and -3 and turns them into 9 (two different inputs, same output).  That is allowed.  However, it is not reversible!  If you take a 9 and turn it into both a 3 and a –3 (two different outputs, same input), you are not a function.</para>
+
+<table id="function" frame="none" summary="">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry><m:math>
+          <m:mrow>
+            <m:mstyle fontsize="28pt">
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mtd>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                        <m:mo stretchy="false">→</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">→</m:mo>
+                      </m:mrow>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math></entry>
+    <entry>
+<media id="id20802624" alt="x squared Gearbox"><image src="../../media/gearbox_2.png" mime-type="image/png" print-width="2in"/></media>
+</entry>
+    <entry>     <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="28pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mn>9</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math></entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+<caption>If 3 goes in, 9 comes out.  If –3 goes in, 9 also comes out.  No problem: <m:math><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math> is a function.</caption>
+</table>   
+
+<table id="no_function" frame="none" summary="">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry>     <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="28pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mn>9</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math></entry>
+    <entry>
+<media id="id22865614" alt="No function Gearbox"><image src="../../media/gearbox_3.png" mime-type="image/png" print-width="2in"/></media>
+</entry>
+    <entry><m:math>
+          <m:mrow>
+            <m:mstyle fontsize="28pt">
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mtd>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                        <m:mo stretchy="false">→</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">→</m:mo>
+                      </m:mrow>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math></entry>
+
+  </row>
+</tbody>
+
+
+</tgroup>
+<caption>If 9 goes in, both –3 and 3 come out.  This <emphasis> violates the rule of consistency:</emphasis> no function can do this</caption>
+</table><para id="element-899">This asymmetry has the potential to cause a great deal of confusion, but it is a very important aspect of functions.</para>  
+
+  </content>
+  
+</document>

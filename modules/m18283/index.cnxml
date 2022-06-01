@@ -1,0 +1,57 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Imaginary Concepts -- Equality and Inequality in Complex Numbers</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>b67ad8f1-1224-4889-ba7e-a0ceb2fa6df8</md:uuid>
+</metadata>
+  <content>
+    <para id="id8222068">What does it mean for two complex numbers to be <emphasis>equal?</emphasis> As always, equality asserts that two things are exactly the same. <m:math><m:mn>7</m:mn><m:mo>+</m:mo><m:mi>3i</m:mi></m:math> is <emphasis>not</emphasis> equal to 7, or to <m:math><m:mi>3i</m:mi></m:math>, or to <m:math><m:mn>7</m:mn><m:mo>-</m:mo><m:mi>3i</m:mi></m:math>, or to <m:math><m:mn>3</m:mn><m:mo>+</m:mo><m:mi>7i</m:mi></m:math>. It is not equal to anything except <m:math><m:mn>7</m:mn><m:mo>+</m:mo><m:mi>3i</m:mi></m:math>.</para>
+    <para id="id8672099"><title>Definition of Equality</title>Two complex numbers are <emphasis>equal</emphasis> to each other only if <emphasis>their real parts are equal, and their imaginary parts are equal.</emphasis></para>
+    
+    <para id="id8993539">So if we say that two complex numbers equal each other, we are actually making two separate, independent statements. We can use this, for instance, to solve for two separate variables.</para>
+    <table id="element-110" summary="A table showing a simple approach to understanding imaginary equations."><tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+  <row>
+    <entry namest="c1" nameend="c2">Example: Complex Equality</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry namest="c1" nameend="c2">If <m:math><m:mi>3x</m:mi><m:mo>+</m:mo><m:mi>4yi</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mi>4x</m:mi><m:mo>+</m:mo><m:mi>8i</m:mi></m:math>, what are <m:math><m:mi>x</m:mi></m:math> and <m:math><m:mi>y</m:mi></m:math>?</entry>
+    
+  </row>
+  <row>
+    <entry namest="c1" nameend="c2">Normally, it is impossible to solve one equation for two unknowns. But this is really two separate equations!</entry>
+    
+  </row>
+  <row>
+    <entry><emphasis>Real part on the left</emphasis> = <emphasis>real part on the right:</emphasis></entry>
+    <entry><m:math><m:mi>3x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mi>4x</m:mi></m:math></entry>
+  </row>
+  <row>
+    <entry><emphasis>Imaginary part on the left</emphasis> = <emphasis>imaginary part on the right:</emphasis></entry>
+    <entry><m:math><m:mi>4y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>We can now solve both of these equations trivially.</entry>
+    <entry><m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:math>, <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:math></entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table>
+    
+    
+    
+    
+    
+    <para id="id7094961">And what about <emphasis>inequalities?</emphasis> The answer may surprise you: <emphasis>there are no inequalities with complex numbers,</emphasis> at least not in the form we’re seeing.</para>
+    <para id="id8221946">The real numbers have the property that for any two real numbers <m:math><m:mi>a</m:mi></m:math> and <m:math><m:mi>b</m:mi></m:math>, exactly one of the following three statements must be true: <m:math><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>b</m:mi></m:math>, <m:math><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi></m:math>, or <m:math><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi></m:math>. This is one of those properties that seems almost too obvious to bother with. But it becomes more interesting when you realize that the complex numbers do <emphasis>not</emphasis> have that property. Consider two simple numbers, <m:math><m:mi>i</m:mi></m:math> and 1. Which of the following is true?</para>
+    <list id="id9084827" list-type="bulleted"><item><m:math><m:mi>i</m:mi></m:math> = 1 <media id="idm5834736" alt=""><image src="../../media/graphics1-0287.png" mime-type="image/png" height="18" width="19"/></media></item>
+      <item><m:math><m:mi>i</m:mi></m:math> &gt; 1 <media id="idm3665088" alt=""><image src="../../media/graphics2-0287.png" mime-type="image/png" height="18" width="19"/></media></item>
+      <item><m:math><m:mi>i</m:mi></m:math> &lt; 1 <media id="idm3718896" alt=""><image src="../../media/graphics3-0287.png" mime-type="image/png" height="18" width="19"/></media></item>
+    </list>
+    <para id="id9085154">None of them is true. It is not generally possible to describe two complex numbers as being “greater than” or “less than” each other.</para>
+    <para id="id9281344">Visually, this corresponds to the fact that all the real numbers can be laid out on a number line: “greater than” means “to the right of” and so on. The complex numbers cannot be laid out on a number line. They are sometimes pictured on a 2-dimensional graph, where the real part is the <m:math><m:mi>x</m:mi></m:math> coordinate and the imaginary part is the <m:math><m:mi>y</m:mi></m:math> coordinate. But one point on a graph is neither greater than, nor less than, another point!</para>
+  </content>
+</document>
