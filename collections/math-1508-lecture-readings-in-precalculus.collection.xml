@@ -1,12 +1,13 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="Scott Starks">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col11354</md:content-id>
     <md:title>MATH 1508 (Lecture) Readings in Precalculus</md:title>
     <md:language>en</md:language>
     <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</md:license>
     <md:uuid>a3c9e69a-29d0-494d-b663-5418b3355e44</md:uuid>
-<md:slug>math-1508-lecture-readings-in-precalculus</md:slug>
-</metadata>
+    <md:slug>math-1508-lecture-readings-in-precalculus</md:slug>
+  </metadata>
   <col:content>
     <col:subcollection>
       <md:title>Algebra</md:title>
