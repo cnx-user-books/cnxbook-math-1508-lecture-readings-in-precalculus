@@ -741,9 +741,7 @@
           <m:annotation encoding="StarMath 5.0"> size 12{2 \( 3 \)  - 6=0} {}</m:annotation>
         </m:semantics>
       </m:math>
-<m:math>
-  
-</m:math>
+
 <m:math>
 <m:mi>✓</m:mi></m:math>
     </entry>
@@ -859,9 +857,7 @@
           <m:annotation encoding="StarMath 5.0"> size 12{2 \(  - 2 \)  - 6= - "10"} {}</m:annotation>
         </m:semantics>
       </m:math>
-<m:math>
-  
-</m:math>
+
 <m:math>
 <m:mi>✓</m:mi>
 </m:math>
@@ -969,9 +965,7 @@
           <m:annotation encoding="StarMath 5.0"> size 12{2 \( 0 \)  - 6= - 6} {}</m:annotation>
         </m:semantics>
       </m:math>
-<m:math>
-  
-</m:math>
+
 <m:math>
 <m:mi>✓</m:mi>
 </m:math>
@@ -1134,9 +1128,7 @@
           <m:annotation encoding="StarMath 5.0"> size 12{2 \(  {  { size 8{1} }  over  { size 8{2} } }  \)  - 6= - 5} {}</m:annotation>
         </m:semantics>
       </m:math>
-<m:math>
-  
-</m:math>
+
 <m:math>
 <m:mi>✓</m:mi>
 </m:math>

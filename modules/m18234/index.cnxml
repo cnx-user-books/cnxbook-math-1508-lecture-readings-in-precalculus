@@ -401,7 +401,7 @@
 
   <newline count="2"/>
 
-  <m:math display="display">
+  <m:math>
      <m:apply>
     <m:power/>
     <m:cn>8</m:cn>

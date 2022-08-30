@@ -151,7 +151,7 @@ Example: Simplify
 					<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>5</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {5} } {}</m:annotation></m:semantics></m:math> really the square root of –20? If it is, then when we <emphasis>square</emphasis> it, we should get –20.</entry>
 			</row>
 			<row>
-				<entry namest="c1" nameend="c2"><m:math><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>2i</m:mi></m:msup>
+				<entry namest="c1" nameend="c2"><m:math><m:msup><m:mrow><m:mo>(</m:mo><m:mi>2i</m:mi>
 								<m:msqrt><m:mn>5</m:mn></m:msqrt><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup>
 						<m:mo>=</m:mo>
 						<m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup><m:msup><m:mi>i</m:mi><m:mn>2</m:mn></m:msup>

@@ -221,7 +221,7 @@ you indicate that the variable
                         <m:mrow>
                           <m:mtable>
                             <m:mtr>
-                              <m:mrow>
+                              <m:mtd>
                                 <m:mo stretchy="false">→</m:mo>
                                 <m:mi>f</m:mi>
                                 <m:mo stretchy="false">(</m:mo>
@@ -249,15 +249,15 @@ you indicate that the variable
                                 <m:mtext>dog</m:mtext>
                                 <m:mo stretchy="false">)</m:mo>
                                 <m:mrow/>
-                              </m:mrow>
+                              </m:mtd>
                             </m:mtr>
                             <m:mtr>
-                              <m:mrow>
+                              <m:mtd>
                                 <m:mo stretchy="false">(</m:mo>
                                 <m:mtext>*not in the domain</m:mtext>
                                 <m:mo stretchy="false">)</m:mo>
                                 <m:mrow/>
-                              </m:mrow>
+                              </m:mtd>
                             </m:mtr>
                           </m:mtable>
                           <m:mrow/>
